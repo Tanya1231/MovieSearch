@@ -45,4 +45,9 @@
     </string>
     <string name="image">image</string>
     <string name="image_web">Постеры предоставлены https://www.movieposters.com/</string>
+    <string name="menu">МЕНЮ</string>
+    <string name="favourites">ИЗБРАННОЕ</string>
+    <string name="watch_later">ПОСМОТРЕТЬ ПОЗЖЕ</string>
+    <string name="compilations">ПОДБОРКИ</string>
+    <string name="settings">НАСТРОЙКИ</string>
 </resources>
