@@ -5,7 +5,7 @@
     android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.moviesearch.MainActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="300dp"
@@ -19,7 +19,7 @@
 
 
         <Button
-            android:id="@+id/button_menu"
+            android:id="@+id/buttonMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
@@ -27,7 +27,7 @@
             android:textColor="@android:color/white" />
 
         <Button
-            android:id="@+id/button_fav"
+            android:id="@+id/buttonFav"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
@@ -35,7 +35,7 @@
             android:textColor="@android:color/white" />
 
         <Button
-            android:id="@+id/button_watch"
+            android:id="@+id/buttonWatch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
@@ -43,7 +43,7 @@
             android:textColor="@android:color/white" />
 
         <Button
-            android:id="@+id/button_compilations"
+            android:id="@+id/buttonCompilations"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
@@ -51,7 +51,7 @@
             android:textColor="@android:color/white" />
 
         <Button
-            android:id="@+id/button_settings"
+            android:id="@+id/buttonSettings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?selectableItemBackgroundBorderless"
@@ -115,12 +115,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="16dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
         android:autoLink="web"
         android:linksClickable="true"
         android:text="@string/image_web"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topMenu" />
 
 

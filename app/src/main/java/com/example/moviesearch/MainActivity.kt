@@ -2,37 +2,38 @@ package com.example.moviesearch
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import android.view.ViewGroup
 import android.widget.Toast
+import com.example.moviesearch.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         initButtons()
     }
 
     private fun initButtons() {
 
-        button_menu.setOnClickListener {
+        binding.buttonMenu.setOnClickListener {
             Toast.makeText(this, "МЕНЮ", Toast.LENGTH_SHORT).show()
         }
 
-        button_fav.setOnClickListener {
+        binding.buttonFav.setOnClickListener {
             Toast.makeText(this, "ИЗБРАННОЕ", Toast.LENGTH_SHORT).show()
         }
 
-        button_watch.setOnClickListener {
+        binding.buttonWatch.setOnClickListener {
             Toast.makeText(this, "ПОСМОТРЕТЬ ПОЗЖЕ", Toast.LENGTH_SHORT).show()
         }
 
-        button_compilations.setOnClickListener {
+        binding.buttonCompilations.setOnClickListener {
             Toast.makeText(this, "ПОДБОРКИ", Toast.LENGTH_SHORT).show()
         }
 
-        button_settings.setOnClickListener {
+        binding.buttonSettings.setOnClickListener {
             Toast.makeText(this, "НАСТРОЙКИ", Toast.LENGTH_SHORT).show()
         }
     }
