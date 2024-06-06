@@ -82,6 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:columnCount="2"
+        android:layoutAnimation="@anim/layout_animation"
         android:orientation="horizontal"
         android:useDefaultMargins="true"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
