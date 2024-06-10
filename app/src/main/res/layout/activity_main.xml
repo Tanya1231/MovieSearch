@@ -94,6 +94,9 @@
             android:id="@+id/cardOne"
             android:layout_width="150dp"
             android:layout_height="200dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:stateListAnimator="@animator/elevation"
             app:cardCornerRadius="15dp">
 
             <ImageView
@@ -108,6 +111,9 @@
             android:id="@+id/cardTwo"
             android:layout_width="150dp"
             android:layout_height="200dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:stateListAnimator="@animator/elevation"
             app:cardCornerRadius="15dp">
 
             <ImageView
@@ -122,6 +128,9 @@
             android:id="@+id/cardThree"
             android:layout_width="150dp"
             android:layout_height="200dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:stateListAnimator="@animator/elevation"
             app:cardCornerRadius="15dp">
 
             <ImageView
@@ -136,6 +145,9 @@
             android:id="@+id/cardFour"
             android:layout_width="150dp"
             android:layout_height="200dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:stateListAnimator="@animator/elevation"
             app:cardCornerRadius="15dp">
 
             <ImageView
