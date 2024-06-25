@@ -3,7 +3,9 @@ package com.example.moviesearch
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.moviesearch.databinding.ActivityMainBinding
+import com.google.android.material.switchmaterial.SwitchMaterial
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -16,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         initNavigation()
 
         initToolbar()
+
+        switch()
 
     }
 
@@ -52,6 +56,18 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 else -> false
+            }
+        }
+    }
+
+    private fun switch() {
+        val btn = findViewById<SwitchMaterial>(R.id.switchOne)
+
+        btn.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) {
+                delegate.localNightMode = AppCompatDelegate.MODE_NIGHT_YES
+            } else {
+                delegate.localNightMode = AppCompatDelegate.MODE_NIGHT_NO
             }
         }
     }
