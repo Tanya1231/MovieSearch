@@ -51,10 +51,10 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.recyclerview.selection)
-    implementation (libs.adapterdelegates4.kotlin.dsl)
-    implementation (libs.adapterdelegates4.kotlin.dsl.layoutcontainer)
-    implementation (libs.adapterdelegates4.kotlin.dsl.viewbinding)
-    implementation (libs.androidx.coordinatorlayout)
-    implementation (libs.material.v120)
+    implementation(libs.adapterdelegates4.kotlin.dsl)
+    implementation(libs.adapterdelegates4.kotlin.dsl.layoutcontainer)
+    implementation(libs.adapterdelegates4.kotlin.dsl.viewbinding)
+    implementation(libs.androidx.coordinatorlayout)
+    implementation(libs.material.v120)
 
 }
