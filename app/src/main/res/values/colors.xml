@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="_indigo">#4B0082</color>
+    <color name="turquoise">#30d5c8</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="dark_purple">#240935</color>
+    <color name="plum">#DDA0DD</color>
+    <color name="skyblue">#87CEEB</color>
 </resources>
