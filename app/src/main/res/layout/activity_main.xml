@@ -77,88 +77,15 @@
         app:layout_constraintTop_toBottomOf="@+id/topMenu" />
 
 
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_margin="16dp"
-        android:columnCount="2"
-        android:layoutAnimation="@anim/layout_animation"
-        android:orientation="horizontal"
-        android:useDefaultMargins="true"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/disclaimer">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardOne"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:stateListAnimator="@animator/elevation"
-            app:cardCornerRadius="15dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/image"
-                android:scaleType="centerCrop"
-                android:src="@drawable/card_one" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardTwo"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:stateListAnimator="@animator/elevation"
-            app:cardCornerRadius="15dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/image"
-                android:scaleType="centerCrop"
-                android:src="@drawable/card_two" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardThree"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:stateListAnimator="@animator/elevation"
-            app:cardCornerRadius="15dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/image"
-                android:scaleType="centerCrop"
-                android:src="@drawable/card_three" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardFour"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:stateListAnimator="@animator/elevation"
-            app:cardCornerRadius="15dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/image"
-                android:scaleType="centerCrop"
-                android:src="@drawable/card_four" />
-        </androidx.cardview.widget.CardView>
-
-    </GridLayout>
+        app:layout_constraintTop_toBottomOf="@+id/disclaimer" />
 
 
     <com.google.android.material.appbar.AppBarLayout
