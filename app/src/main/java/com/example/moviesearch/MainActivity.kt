@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.moviesearch.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.switchmaterial.SwitchMaterial
 
 class MainActivity : AppCompatActivity() {
@@ -103,21 +104,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initNavigation() {
+        val snackbarFavourites =
+            Snackbar.make(binding.bottomNavigation, "Избранное", Snackbar.LENGTH_SHORT)
+        val snackbarLater =
+            Snackbar.make(binding.bottomNavigation, "Посмотреть позже", Snackbar.LENGTH_SHORT)
+        val snackbarSelections =
+            Snackbar.make(binding.bottomNavigation, "Подборки", Snackbar.LENGTH_SHORT)
         binding.bottomNavigation.setOnItemSelectedListener {
 
             when (it.itemId) {
                 R.id.favorites -> {
-                    Toast.makeText(this, "Избранное", Toast.LENGTH_SHORT).show()
+                    snackbarFavourites.show()
                     true
                 }
 
                 R.id.watch_later -> {
-                    Toast.makeText(this, "Посмотреть позже", Toast.LENGTH_SHORT).show()
+                    snackbarLater.show()
                     true
                 }
 
                 R.id.selections -> {
-                    Toast.makeText(this, "Подборки", Toast.LENGTH_SHORT).show()
+                    snackbarSelections.show()
                     true
                 }
 
