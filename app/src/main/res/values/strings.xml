@@ -11,4 +11,7 @@
     <string name="menu_toolbar">Меню для тулбара</string>
     <string name="title_menu">Заголовок меню</string>
     <string name="moviesearch">MovieSearch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_text">кнопка поделиться</string>
 </resources>
