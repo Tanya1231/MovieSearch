@@ -38,6 +38,14 @@ class FilmListRecyclerAdapter(private val clickListener: OnItemClickListener) :
         }
     }
 
+    override fun getItemId(position: Int): Long {
+        return position.toLong()
+    }
+
+    override fun getItemViewType(position: Int): Int {
+        return position
+    }
+
     @SuppressLint("NotifyDataSetChanged")
     fun addItems(list: List<Film>) {
         items.clear()
