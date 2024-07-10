@@ -59,6 +59,11 @@ class MainActivity : AppCompatActivity() {
 
             when (it.itemId) {
                 R.id.favorites -> {
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.fragment_placeholder, FavoritesFragment())
+                        .addToBackStack(null)
+                        .commit()
                     snackbarFavourites.show()
                     true
                 }

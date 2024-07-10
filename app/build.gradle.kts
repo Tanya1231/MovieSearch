@@ -58,5 +58,4 @@ dependencies {
     implementation(libs.adapterdelegates4.kotlin.dsl.viewbinding)
     implementation(libs.androidx.coordinatorlayout)
     implementation(libs.material.v120)
-
 }

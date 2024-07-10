@@ -45,15 +45,28 @@
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/details_fab"
+        android:id="@+id/detailsFabShare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:backgroundTint="@color/light_blue"
+        android:contentDescription="@string/button_text"
+        app:borderWidth="0dp"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|right"
-        app:srcCompat="@drawable/to_share"
-        android:contentDescription="@string/button_text" />
+        app:srcCompat="@drawable/to_share" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/detailsFabFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/light_blue"
+        android:contentDescription="@string/button_favorite"
+        app:borderWidth="0dp"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="left|bottom"
+        app:srcCompat="@drawable/baseline_favorite_border_24" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
