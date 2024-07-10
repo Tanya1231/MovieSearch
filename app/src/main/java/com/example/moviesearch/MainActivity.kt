@@ -49,8 +49,6 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun initNavigation() {
-        val snackbarFavourites =
-            Snackbar.make(binding.bottomNavigation, "Избранное", Snackbar.LENGTH_SHORT)
         val snackbarLater =
             Snackbar.make(binding.bottomNavigation, "Посмотреть позже", Snackbar.LENGTH_SHORT)
         val snackbarSelections =
@@ -64,7 +62,6 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.fragment_placeholder, FavoritesFragment())
                         .addToBackStack(null)
                         .commit()
-                    snackbarFavourites.show()
                     true
                 }
 
