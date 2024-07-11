@@ -58,4 +58,6 @@ dependencies {
     implementation(libs.adapterdelegates4.kotlin.dsl.viewbinding)
     implementation(libs.androidx.coordinatorlayout)
     implementation(libs.material.v120)
+    implementation("com.redmadrobot:input-mask-android:6.0.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.3.72")
 }
