@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.moviesearch"
-        minSdk = 24
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -48,6 +48,7 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.activity)
+    implementation(libs.car.ui.lib)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -58,6 +59,4 @@ dependencies {
     implementation(libs.adapterdelegates4.kotlin.dsl.viewbinding)
     implementation(libs.androidx.coordinatorlayout)
     implementation(libs.material.v120)
-    implementation("com.redmadrobot:input-mask-android:6.0.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.3.72")
 }
