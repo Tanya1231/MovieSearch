@@ -10,16 +10,16 @@ import com.example.moviesearch.databinding.FragmentFavoritesBinding
 
 class FavoritesFragment : Fragment() {
     private lateinit var filmsAdapter: FilmListRecyclerAdapter
-    private var _binding: FragmentFavoritesBinding? = null
-    private val binding: FragmentFavoritesBinding
-        get() = _binding!!
+    private lateinit var binding: FragmentFavoritesBinding
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_favorites, container, false)
+        binding = FragmentFavoritesBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

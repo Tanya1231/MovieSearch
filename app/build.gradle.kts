@@ -59,4 +59,6 @@ dependencies {
     implementation(libs.adapterdelegates4.kotlin.dsl.viewbinding)
     implementation(libs.androidx.coordinatorlayout)
     implementation(libs.material.v120)
+    implementation("com.github.bumptech.glide:glide:4.11.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.11.0")
 }

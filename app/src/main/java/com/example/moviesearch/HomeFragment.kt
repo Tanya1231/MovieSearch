@@ -1,6 +1,11 @@
 package com.example.moviesearch
 
 import android.os.Bundle
+import android.transition.Scene
+import android.transition.Slide
+import android.transition.TransitionManager
+import android.transition.TransitionSet
+import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,13 +13,13 @@ import android.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.moviesearch.databinding.FragmentHomeBinding
+import com.example.moviesearch.databinding.MergeHomeScreenContentBinding
 import java.util.Locale
 
 class HomeFragment : Fragment() {
-    private var _binding: FragmentHomeBinding? = null
-    private val binding: FragmentHomeBinding
-        get() = _binding!!
     private lateinit var filmsAdapter: FilmListRecyclerAdapter
+    private lateinit var binding: FragmentHomeBinding
+    private lateinit var binding2: MergeHomeScreenContentBinding
     private val filmsDataBase = listOf(
         Film(
             "Начало",
@@ -73,18 +78,37 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
+        binding = FragmentHomeBinding.inflate(inflater, container, false)
+        binding2 =
+            MergeHomeScreenContentBinding.inflate(layoutInflater, binding.homeFragmentRoot, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.searchView.setOnClickListener {
-            binding.searchView.isIconified = false
+
+        val scene = Scene(binding.homeFragmentRoot, binding2.root)
+//Создаем анимацию выезда поля поиска сверху
+        val searchSlide = Slide(Gravity.TOP).addTarget(R.id.searchView)
+//Создаем анимацию выезда RV снизу
+        val recyclerSlide = Slide(Gravity.BOTTOM).addTarget(R.id.main_recycler)
+//Создаем экземпляр TransitionSet, который объединит все наши анимации
+        val customTransition = TransitionSet().apply {
+            //Устанавливаем время, за которое будет проходить анимация
+            duration = 500
+            //Добавляем сами анимации
+            addTransition(recyclerSlide)
+            addTransition(searchSlide)
+        }
+//Также запускаем через TransitionManager, но вторым параметром передаем нашу кастомную анимацию
+        TransitionManager.go(scene, customTransition)
+
+        binding2.searchView.setOnClickListener {
+            binding2.searchView.isIconified = false
         }
 
         //Подключаем слушателя изменений введенного текста в поиска
-        binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener,
+        binding2.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener,
             androidx.appcompat.widget.SearchView.OnQueryTextListener {
             //Этот метод отрабатывает при нажатии кнопки "поиск" на софт клавиатуре
             override fun onQueryTextSubmit(query: String?): Boolean {
@@ -109,7 +133,7 @@ class HomeFragment : Fragment() {
                 return true
             }
         })
-        binding.mainRecycler.apply {
+        binding2.mainRecycler.apply {
             filmsAdapter =
                 FilmListRecyclerAdapter(object : FilmListRecyclerAdapter.OnItemClickListener {
                     override fun click(film: Film) {
