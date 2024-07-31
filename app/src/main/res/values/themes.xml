@@ -7,4 +7,6 @@
         <item name="colorPrimaryDark">@android:color/black</item>
     </style>
 
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+
 </resources>
