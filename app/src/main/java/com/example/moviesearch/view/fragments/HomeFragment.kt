@@ -1,18 +1,19 @@
-package com.example.moviesearch
+package com.example.moviesearch.view.fragments
 
 import android.os.Bundle
-import android.transition.Scene
-import android.transition.Slide
-import android.transition.TransitionManager
-import android.transition.TransitionSet
-import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.moviesearch.utils.AnimationHelper
+import com.example.moviesearch.view.rv_adapters.FilmListRecyclerAdapter
+import com.example.moviesearch.MainActivity
+import com.example.moviesearch.R
+import com.example.moviesearch.view.rv_adapters.TopSpacingItemDecoration
 import com.example.moviesearch.databinding.FragmentHomeBinding
+import com.example.moviesearch.domain.Film
 import java.util.Locale
 
 class HomeFragment : Fragment() {

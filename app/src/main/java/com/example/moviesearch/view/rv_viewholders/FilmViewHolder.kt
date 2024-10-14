@@ -1,8 +1,9 @@
-package com.example.moviesearch
+package com.example.moviesearch.view.rv_viewholders
 
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.moviesearch.databinding.FilmItemBinding
+import com.example.moviesearch.domain.Film
 
 
 //В конструктор класс передается layout, который мы создали(film_item.xml)

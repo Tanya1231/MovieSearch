@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DetailsFragment"
+            android:name=".view.fragments.DetailsFragment"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

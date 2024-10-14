@@ -1,10 +1,12 @@
-package com.example.moviesearch
+package com.example.moviesearch.view.rv_adapters
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.moviesearch.view.rv_viewholders.FilmViewHolder
 import com.example.moviesearch.databinding.FilmItemBinding
+import com.example.moviesearch.domain.Film
 
 //в параметр передаем слушатель, чтобы мы потом могли обрабатывать нажатия из класса активити
 class FilmListRecyclerAdapter(private val clickListener: OnItemClickListener) :

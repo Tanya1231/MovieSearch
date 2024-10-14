@@ -6,7 +6,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.example.moviesearch.databinding.ActivityMainBinding
-import com.google.android.material.snackbar.Snackbar
+import com.example.moviesearch.domain.Film
+import com.example.moviesearch.view.fragments.CollectionFragment
+import com.example.moviesearch.view.fragments.DetailsFragment
+import com.example.moviesearch.view.fragments.FavoritesFragment
+import com.example.moviesearch.view.fragments.HomeFragment
+import com.example.moviesearch.view.fragments.LaterFragment
 import com.google.android.material.switchmaterial.SwitchMaterial
 
 class MainActivity : AppCompatActivity() {

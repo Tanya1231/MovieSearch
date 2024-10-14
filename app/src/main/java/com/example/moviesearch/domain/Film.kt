@@ -1,4 +1,4 @@
-package com.example.moviesearch
+package com.example.moviesearch.domain
 
 import kotlinx.parcelize.Parcelize
 import android.os.Parcelable
