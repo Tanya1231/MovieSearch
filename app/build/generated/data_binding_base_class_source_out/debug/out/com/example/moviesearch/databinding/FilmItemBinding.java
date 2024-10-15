@@ -12,7 +12,7 @@ import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.moviesearch.R;
-import com.example.moviesearch.RatingDonutView;
+import com.example.moviesearch.view.customviews.RatingDonutView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;

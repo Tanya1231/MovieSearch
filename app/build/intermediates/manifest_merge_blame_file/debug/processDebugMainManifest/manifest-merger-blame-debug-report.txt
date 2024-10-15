@@ -89,8 +89,8 @@
 54-->C:\MovieSearch\app\src\main\AndroidManifest.xml:28:13-37
 55        <activity
 55-->C:\MovieSearch\app\src\main\AndroidManifest.xml:29:9-31:40
-56            android:name="com.example.moviesearch.MainActivity"
-56-->C:\MovieSearch\app\src\main\AndroidManifest.xml:30:13-41
+56            android:name="com.example.moviesearch.view.MainActivity"
+56-->C:\MovieSearch\app\src\main\AndroidManifest.xml:30:13-46
 57            android:exported="false" />
 57-->C:\MovieSearch\app\src\main\AndroidManifest.xml:31:13-37
 58

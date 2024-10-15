@@ -53,7 +53,7 @@
             android:name="com.example.moviesearch.view.fragments.DetailsFragment"
             android:exported="false" />
         <activity
-            android:name="com.example.moviesearch.MainActivity"
+            android:name="com.example.moviesearch.view.MainActivity"
             android:exported="false" />
 
         <meta-data

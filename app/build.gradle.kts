@@ -61,6 +61,7 @@ dependencies {
     implementation(libs.androidx.coordinatorlayout)
     implementation(libs.material.v120)
     implementation("com.github.bumptech.glide:glide:4.11.0")
+    androidTestImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     annotationProcessor("com.github.bumptech.glide:compiler:4.11.0")
     implementation("androidx.dynamicanimation:dynamicanimation:1.0.0")
     implementation("com.airbnb.android:lottie:3.4.4")

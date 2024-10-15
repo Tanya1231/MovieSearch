@@ -167,12 +167,12 @@ ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:26:9-28:40
 		ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
 		ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:27:13-59
-activity#com.example.moviesearch.MainActivity
+activity#com.example.moviesearch.view.MainActivity
 ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:30:13-46
 meta-data#preloaded_fonts
 ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:33:9-35:57
 	android:resource
