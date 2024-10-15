@@ -1,0 +1,1 @@
+C:\MovieSearch\app\src\androidTest\java\com\example\moviesearch\ExampleInstrumentedTest.kt
