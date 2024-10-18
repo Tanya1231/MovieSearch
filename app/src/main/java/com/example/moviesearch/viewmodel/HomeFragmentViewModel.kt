@@ -7,7 +7,8 @@ import com.example.moviesearch.domain.Film
 import com.example.moviesearch.domain.Interactor
 
 class HomeFragmentViewModel : ViewModel() {
-    val filmsListLiveData:  MutableLiveData<List<Film>> = MutableLiveData()
+    val filmsListLiveData: MutableLiveData<List<Film>> = MutableLiveData()
+
     //Инициализируем интерактор
     private var interactor: Interactor = App.instance.interactor
 

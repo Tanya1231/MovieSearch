@@ -11,19 +11,27 @@ import android.view.View
 import com.example.moviesearch.R
 
 
-class RatingDonutView @JvmOverloads constructor(context: Context, attributeSet: AttributeSet? = null) : View(context, attributeSet) {
+class RatingDonutView @JvmOverloads constructor(
+    context: Context,
+    attributeSet: AttributeSet? = null
+) : View(context, attributeSet) {
     //Овал для рисования сегментов прогресс бара
     private val oval = RectF()
+
     //Координаты центра View, а также Radius
     private var radius: Float = 0f
     private var centerX: Float = 0f
     private var centerY: Float = 0f
+
     //Толщина линии прогресса
     private var stroke = 10f
+
     //Значение прогресса от 0 - 100
     private var progress = 50
+
     //Значения размера текста внутри кольца
     private var scaleSize = 40f
+
     //Краски для наших фигур
     private lateinit var strokePaint: Paint
     private lateinit var digitPaint: Paint
@@ -35,7 +43,8 @@ class RatingDonutView @JvmOverloads constructor(context: Context, attributeSet: 
             context.theme.obtainStyledAttributes(attributeSet, R.styleable.RatingDonutView, 0, 0)
         try {
             stroke = a.getFloat(
-                R.styleable.RatingDonutView_stroke, stroke)
+                R.styleable.RatingDonutView_stroke, stroke
+            )
             progress = a.getInt(R.styleable.RatingDonutView_progress, progress)
         } finally {
             a.recycle()
@@ -127,7 +136,7 @@ class RatingDonutView @JvmOverloads constructor(context: Context, attributeSet: 
         //Перемещаем нулевые координаты канваса в центр, вы помните, так проще рисовать все круглое
         canvas.translate(centerX, centerY)
         //Устанавливаем размеры под наш овал
-        oval.set(0f - scale, 0f - scale, scale , scale)
+        oval.set(0f - scale, 0f - scale, scale, scale)
         //Рисуем задний фон(Желательно его отрисовать один раз в bitmap, так как он статичный)
         canvas.drawCircle(0f, 0f, radius, circlePaint)
         //Рисуем "арки" из них и будет состоять наше кольцо + у нас тут специальный метод
@@ -146,13 +155,13 @@ class RatingDonutView @JvmOverloads constructor(context: Context, attributeSet: 
         var advance = 0f
         for (width in widths) advance += width
         //Рисуем наш текст
-        canvas.drawText(message, centerX - advance / 2, centerY  + advance / 4, digitPaint)
+        canvas.drawText(message, centerX - advance / 2, centerY + advance / 4, digitPaint)
     }
 
-    private fun getPaintColor(progress: Int): Int = when(progress) {
-        in 0 .. 25 -> Color.parseColor("#e84258")
-        in 26 .. 50 -> Color.parseColor("#fd8060")
-        in 51 .. 75 -> Color.parseColor("#fee191")
+    private fun getPaintColor(progress: Int): Int = when (progress) {
+        in 0..25 -> Color.parseColor("#e84258")
+        in 26..50 -> Color.parseColor("#fd8060")
+        in 51..75 -> Color.parseColor("#fee191")
         else -> Color.parseColor("#b0d8a4")
     }
 

@@ -9,200 +9,201 @@
 9        android:targetSdkVersion="34" />
 10
 11    <queries>
-11-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:23:5-34:15
+11-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:23:5-34:15
 12
 13        <!-- Required for querying the IME service at runtime -->
 14        <intent>
-14-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:26:9-28:18
+14-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:26:9-28:18
 15            <action android:name="android.view.InputMethod" />
-15-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:27:13-63
-15-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:27:21-60
+15-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:27:13-63
+15-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:27:21-60
 16        </intent>
 17        <!-- Required for querying the plugin at runtime -->
 18        <provider
-18-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:30:9-33:67
+18-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:30:9-33:67
 19            android:name="com.android.car.ui.plugin.PluginNameProvider"
-19-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:31:13-72
+19-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:31:13-72
 20            android:authorities="com.android.car.ui.plugin" />
-20-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:32:13-60
+20-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:32:13-60
 21    </queries>
 22
 23    <permission
-23-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+23-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 24        android:name="com.example.moviesearch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-24-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+24-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 25        android:protectionLevel="signature" />
-25-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+25-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 26
 27    <uses-permission android:name="com.example.moviesearch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-27-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-27-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+27-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 28
 29    <application
-29-->C:\MovieSearch\app\src\main\AndroidManifest.xml:5:5-36:19
+29-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:5:5-36:19
 30        android:name="com.example.moviesearch.App"
-30-->C:\MovieSearch\app\src\main\AndroidManifest.xml:6:9-28
+30-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:6:9-28
 31        android:allowBackup="true"
-31-->C:\MovieSearch\app\src\main\AndroidManifest.xml:7:9-35
+31-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:7:9-35
 32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+32-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\179b2bb48bc25c94413cc0ef6760daaf\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 33        android:dataExtractionRules="@xml/data_extraction_rules"
-33-->C:\MovieSearch\app\src\main\AndroidManifest.xml:8:9-65
+33-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:8:9-65
 34        android:debuggable="true"
 35        android:extractNativeLibs="false"
 36        android:fullBackupContent="@xml/backup_rules"
-36-->C:\MovieSearch\app\src\main\AndroidManifest.xml:9:9-54
+36-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:9:9-54
 37        android:icon="@drawable/ic_movie"
-37-->C:\MovieSearch\app\src\main\AndroidManifest.xml:10:9-42
+37-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:10:9-42
 38        android:label="@string/app_name"
-38-->C:\MovieSearch\app\src\main\AndroidManifest.xml:11:9-41
+38-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:11:9-41
 39        android:roundIcon="@mipmap/ic_launcher_round"
-39-->C:\MovieSearch\app\src\main\AndroidManifest.xml:12:9-54
+39-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:12:9-54
 40        android:supportsRtl="true"
-40-->C:\MovieSearch\app\src\main\AndroidManifest.xml:13:9-35
-41        android:theme="@style/Base.Theme.MovieSearch" >
-41-->C:\MovieSearch\app\src\main\AndroidManifest.xml:14:9-54
-42        <activity
-42-->C:\MovieSearch\app\src\main\AndroidManifest.xml:16:9-25:20
-43            android:name="com.example.moviesearch.SplashActivity"
-43-->C:\MovieSearch\app\src\main\AndroidManifest.xml:17:13-43
-44            android:exported="true"
-44-->C:\MovieSearch\app\src\main\AndroidManifest.xml:18:13-36
-45            android:theme="@style/Theme.SplashScreen" >
-45-->C:\MovieSearch\app\src\main\AndroidManifest.xml:19:13-54
-46            <intent-filter>
-46-->C:\MovieSearch\app\src\main\AndroidManifest.xml:20:13-24:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\MovieSearch\app\src\main\AndroidManifest.xml:21:17-69
-47-->C:\MovieSearch\app\src\main\AndroidManifest.xml:21:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\MovieSearch\app\src\main\AndroidManifest.xml:23:17-77
-49-->C:\MovieSearch\app\src\main\AndroidManifest.xml:23:27-74
-50            </intent-filter>
-51        </activity>
-52        <activity
-52-->C:\MovieSearch\app\src\main\AndroidManifest.xml:26:9-28:40
-53            android:name="com.example.moviesearch.view.fragments.DetailsFragment"
-53-->C:\MovieSearch\app\src\main\AndroidManifest.xml:27:13-59
-54            android:exported="false" />
-54-->C:\MovieSearch\app\src\main\AndroidManifest.xml:28:13-37
-55        <activity
-55-->C:\MovieSearch\app\src\main\AndroidManifest.xml:29:9-31:40
-56            android:name="com.example.moviesearch.view.MainActivity"
-56-->C:\MovieSearch\app\src\main\AndroidManifest.xml:30:13-46
-57            android:exported="false" />
-57-->C:\MovieSearch\app\src\main\AndroidManifest.xml:31:13-37
-58
-59        <meta-data
-59-->C:\MovieSearch\app\src\main\AndroidManifest.xml:33:9-35:57
-60            android:name="preloaded_fonts"
-60-->C:\MovieSearch\app\src\main\AndroidManifest.xml:34:13-43
-61            android:resource="@array/preloaded_fonts" />
-61-->C:\MovieSearch\app\src\main\AndroidManifest.xml:35:13-54
-62
-63        <provider
-63-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:37:9-42:71
-64            android:name="com.android.car.ui.core.CarUiInstaller"
-64-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:38:13-66
-65            android:authorities="com.example.moviesearch.CarUiInstaller"
-65-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:39:13-66
-66            android:directBootAware="true"
-66-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:40:13-43
-67            android:exported="false"
-67-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:41:13-37
-68            android:process="@string/car_ui_installer_process_name" />
-68-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:42:13-68
-69        <provider
-69-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:43:9-48:79
-70            android:name="com.android.car.ui.core.SearchResultsProvider"
-70-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:44:13-73
-71            android:authorities="com.example.moviesearch.SearchResultsProvider"
-71-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:45:13-73
-72            android:exported="true"
-72-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:46:13-36
-73            android:process="@string/car_ui_installer_process_name"
-73-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:47:13-68
-74            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
-74-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:48:13-76
-75        <provider
-75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-76            android:name="androidx.startup.InitializationProvider"
-76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-77            android:authorities="com.example.moviesearch.androidx-startup"
-77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-78            android:exported="false" >
-78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-79            <meta-data
-79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-81                android:value="androidx.startup" />
-81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-82            <meta-data
-82-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\db30d7f1e95573bbc86a45190580eb55\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-83-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\db30d7f1e95573bbc86a45190580eb55\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-84                android:value="androidx.startup" />
-84-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\db30d7f1e95573bbc86a45190580eb55\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-85            <meta-data
-85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-87                android:value="androidx.startup" />
-87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-88        </provider>
-89
-90        <uses-library
-90-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-91            android:name="androidx.window.extensions"
-91-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-92            android:required="false" />
-92-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-93        <uses-library
-93-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-94            android:name="androidx.window.sidecar"
-94-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-95            android:required="false" />
-95-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-96
-97        <receiver
-97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-99            android:directBootAware="false"
-99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-100            android:enabled="true"
-100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-101            android:exported="true"
-101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-102            android:permission="android.permission.DUMP" >
-102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-105            </intent-filter>
-106            <intent-filter>
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-108            </intent-filter>
-109            <intent-filter>
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-111            </intent-filter>
-112            <intent-filter>
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-114            </intent-filter>
-115        </receiver>
-116    </application>
-117
-118</manifest>
+40-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:13:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Base.Theme.MovieSearch" >
+42-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:14:9-54
+43        <activity
+43-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:16:9-25:20
+44            android:name="com.example.moviesearch.SplashActivity"
+44-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:17:13-43
+45            android:exported="true"
+45-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:18:13-36
+46            android:theme="@style/Theme.SplashScreen" >
+46-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:19:13-54
+47            <intent-filter>
+47-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:20:13-24:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:21:17-69
+48-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:21:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:23:17-77
+50-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:23:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:26:9-28:40
+54            android:name="com.example.moviesearch.view.fragments.DetailsFragment"
+54-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:27:13-59
+55            android:exported="false" />
+55-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:28:13-37
+56        <activity
+56-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:29:9-31:40
+57            android:name="com.example.moviesearch.view.MainActivity"
+57-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:30:13-46
+58            android:exported="false" />
+58-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:31:13-37
+59
+60        <meta-data
+60-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:33:9-35:57
+61            android:name="preloaded_fonts"
+61-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:34:13-43
+62            android:resource="@array/preloaded_fonts" />
+62-->C:\Users\79922\AndroidStudioProjects\MovieSearch\app\src\main\AndroidManifest.xml:35:13-54
+63
+64        <provider
+64-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:37:9-42:71
+65            android:name="com.android.car.ui.core.CarUiInstaller"
+65-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:38:13-66
+66            android:authorities="com.example.moviesearch.CarUiInstaller"
+66-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:39:13-66
+67            android:directBootAware="true"
+67-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:40:13-43
+68            android:exported="false"
+68-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:41:13-37
+69            android:process="@string/car_ui_installer_process_name" />
+69-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:42:13-68
+70        <provider
+70-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:43:9-48:79
+71            android:name="com.android.car.ui.core.SearchResultsProvider"
+71-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:44:13-73
+72            android:authorities="com.example.moviesearch.SearchResultsProvider"
+72-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:45:13-73
+73            android:exported="true"
+73-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:46:13-36
+74            android:process="@string/car_ui_installer_process_name"
+74-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:47:13-68
+75            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+75-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\1995aa17d03e593210e0c6874e2aea25\transformed\car-ui-lib-2.6.0\AndroidManifest.xml:48:13-76
+76        <provider
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+78            android:authorities="com.example.moviesearch.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\51a2473ed384466da499fd7a04dda096\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\79922\.gradle\caches\transforms-4\db30d7f1e95573bbc86a45190580eb55\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\79922\.gradle\caches\transforms-4\db30d7f1e95573bbc86a45190580eb55\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\79922\.gradle\caches\transforms-4\db30d7f1e95573bbc86a45190580eb55\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+88                android:value="androidx.startup" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+89        </provider>
+90
+91        <uses-library
+91-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+92            android:name="androidx.window.extensions"
+92-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+94        <uses-library
+94-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+95            android:name="androidx.window.sidecar"
+95-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\ea549e5150461ca142202da60d4b0254\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+97
+98        <receiver
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+99            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+100            android:directBootAware="false"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+101            android:enabled="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+102            android:exported="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+103            android:permission="android.permission.DUMP" >
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+105                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+108                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+111                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+114                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\14a8bea19d0f5261ee6c5c836a678edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+115            </intent-filter>
+116        </receiver>
+117    </application>
+118
+119</manifest>
