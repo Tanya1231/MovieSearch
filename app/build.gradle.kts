@@ -68,4 +68,5 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-gson:2.6.0")
     implementation ("com.squareup.retrofit2:adapter-rxjava2:2.9.0")
     implementation ("com.squareup.okhttp3:logging-interceptor:3.12.6")
+    implementation ("com.squareup.picasso:picasso:2.71828")
 }
