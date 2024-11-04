@@ -14,7 +14,6 @@ import com.example.moviesearch.databinding.FragmentDetailsBinding
 import com.example.moviesearch.domain.Film
 
 
-@Suppress("DEPRECATION")
 class DetailsFragment : Fragment(R.layout.fragment_details) {
     private var _binding: FragmentDetailsBinding? = null
     private lateinit var film: Film
@@ -71,11 +70,11 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
 
         with(binding) {
             detailsToolbar.title = film.title
-            Glide.with(this)
-                .load(ApiConstants.IMAGES_URL + "w780" + film.poster)
-                .centerCrop()
-                .into(binding.detailsPoster)
             detailsDescription.text = film.description
         }
+        Glide.with(this)
+            .load(ApiConstants.IMAGES_URL + "w780" + film.poster)
+            .centerCrop()
+            .into(binding.detailsPoster)
     }
 }

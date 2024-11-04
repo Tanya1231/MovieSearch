@@ -3440,7 +3440,6 @@ int drawable background_later 0x7f08007d
 int drawable background_main 0x7f08007e
 int drawable background_search_view 0x7f08007f
 int drawable baseline_favorite_border_24 0x7f080080
-int drawable beginning 0x7f080081
 int drawable btn_checkbox_checked_mtrl 0x7f080082
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f080083
 int drawable btn_checkbox_unchecked_mtrl 0x7f080084
@@ -3510,7 +3509,6 @@ int drawable design_ic_visibility 0x7f0800c3
 int drawable design_ic_visibility_off 0x7f0800c4
 int drawable design_password_eye 0x7f0800c5
 int drawable design_snackbar_background 0x7f0800c6
-int drawable django 0x7f0800c7
 int drawable favourites 0x7f0800c8
 int drawable ic_arrow_back_black_24 0x7f0800c9
 int drawable ic_arrow_down_24dp 0x7f0800ca
@@ -3536,11 +3534,8 @@ int drawable ic_mtrl_chip_checked_circle 0x7f0800dd
 int drawable ic_mtrl_chip_close_circle 0x7f0800de
 int drawable ic_search_black_24 0x7f0800df
 int drawable indeterminate_static 0x7f0800e0
-int drawable interstellar 0x7f0800e1
-int drawable kremnievaya_dolina 0x7f0800e2
 int drawable later 0x7f0800e3
 int drawable like 0x7f0800e4
-int drawable lnglorious_bastards 0x7f0800e5
 int drawable m3_avd_hide_password 0x7f0800e6
 int drawable m3_avd_show_password 0x7f0800e7
 int drawable m3_bottom_sheet_drag_handle 0x7f0800e8
@@ -3614,18 +3609,13 @@ int drawable notification_template_icon_bg 0x7f08012b
 int drawable notification_template_icon_low_bg 0x7f08012c
 int drawable notification_tile_bg 0x7f08012d
 int drawable notify_panel_notification_icon_bg 0x7f08012e
-int drawable otstupniki 0x7f08012f
-int drawable parasites 0x7f080130
 int drawable preference_list_divider_material 0x7f080131
 int drawable selection_band_overlay 0x7f080132
 int drawable setting 0x7f080133
 int drawable test_level_drawable 0x7f080134
-int drawable the_green_book 0x7f080135
 int drawable to_share 0x7f080136
 int drawable tooltip_frame_dark 0x7f080137
 int drawable tooltip_frame_light 0x7f080138
-int drawable up 0x7f080139
-int drawable valley 0x7f08013a
 int font rubik 0x7f090000
 int font rubik_medium 0x7f090001
 int id ALT 0x7f0a0000
