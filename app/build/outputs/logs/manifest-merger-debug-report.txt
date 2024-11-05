@@ -9,7 +9,6 @@ MERGED from [androidx.databinding:databinding-ktx:8.4.2] C:\Users\Рустам\.
 MERGED from [androidx.databinding:databinding-runtime:8.4.2] C:\Users\Рустам\.gradle\caches\transforms-4\a1325093c59f3f64cd337d1f0a330885\transformed\databinding-runtime-8.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding:4.3.2] C:\Users\Рустам\.gradle\caches\transforms-4\e2750624794218e037488025be442719\transformed\jetified-adapterdelegates4-kotlin-dsl-viewbinding-4.3.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:viewbinding:8.4.2] C:\Users\Рустам\.gradle\caches\transforms-4\b80b69b60592c132aee733e278e8fc10\transformed\jetified-viewbinding-8.4.2\AndroidManifest.xml:2:1-7:12
-MERGED from [io.insert-koin:koin-androidx-scope:2.2.3] C:\Users\Рустам\.gradle\caches\transforms-4\ea3397927fd489dd9d5c59167c26667d\transformed\jetified-koin-androidx-scope-2.2.3\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\462baee86758b2c3ae95dfa2841e539c\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\a15e4a78876b4e3bede9e333a1e669f6\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\ee12003b3990e7d551266bfbb6457217\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
@@ -19,9 +18,9 @@ MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] C:\Users\Рус�
 MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\c9e8f182118badddfe1d52e3de7ee41a\transformed\navigation-ui-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\9257917c8a2d1208f800a3d1e6d70337\transformed\navigation-ui-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Рустам\.gradle\caches\transforms-4\5442f0d6e13430a2b871add0197574b3\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
-MERGED from [io.insert-koin:koin-android:2.2.3] C:\Users\Рустам\.gradle\caches\transforms-4\31156855d3dcc4273b8efd02ebd29e71\transformed\jetified-koin-android-2.2.3\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\e1aeab1b4caca0b765d19b21928a998f\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:17:1-51:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Рустам\.gradle\caches\transforms-4\37aa90b5013525120526c3873257aecf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [io.insert-koin:koin-androidx-scope:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\ddd34449a7e84b236469ffe3663b87da\transformed\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.airbnb.android:lottie:3.4.4] C:\Users\Рустам\.gradle\caches\transforms-4\5599559160aeb593c7ed6fd2fb8a01a1\transformed\jetified-lottie-3.4.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Рустам\.gradle\caches\transforms-4\2e8e2242042d6e7cd0b3dd003b233c4d\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.preference:preference:1.1.1] C:\Users\Рустам\.gradle\caches\transforms-4\8129a713dc96c49d9e933c2acaeeecd1\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -33,8 +32,8 @@ MERGED from [com.hannesdorfmann:adapterdelegates4-kotlin-dsl-layoutcontainer:4.3
 MERGED from [com.hannesdorfmann:adapterdelegates4:4.3.2] C:\Users\Рустам\.gradle\caches\transforms-4\06605b31483cf3545484503b2c450f11\transformed\jetified-adapterdelegates4-4.3.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Рустам\.gradle\caches\transforms-4\34c61b0bc20763b814becc53e70b70e6\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Рустам\.gradle\caches\transforms-4\30951fa6c6c606ac179c2e634b4ad984\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\26616611b348286e4c3da1f7c68c4628\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\8caf8c92be6970c879fba77be7d899b1\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\26616611b348286e4c3da1f7c68c4628\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\Рустам\.gradle\caches\transforms-4\f67a4e8f7510446baa51bedf723b7840\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.9.0] C:\Users\Рустам\.gradle\caches\transforms-4\0517e795b825e7d1ff974b1da1f67695\transformed\jetified-activity-1.9.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\Рустам\.gradle\caches\transforms-4\469e37a19dfcfd59857192f7cf5a46c7\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -55,8 +54,8 @@ MERGED from [androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\tra
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\7bfce1b4bcfb91c2e84c24d13d5e0c19\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Рустам\.gradle\caches\transforms-4\d361758d3a31b7016c90539888758499\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Рустам\.gradle\caches\transforms-4\c33822bccb15898986dc778fc68e335e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ebb300eb1cfc2055b5ecf7363956282f\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\db92d3ca798a3404087b159e04c6394f\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ebb300eb1cfc2055b5ecf7363956282f\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\259898560a933ea089995bbb5bfaa9e4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\b73ce9201de049ba88b3b5f8cec9680e\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\501526d2e81a7a8d959ecd6176d590ae\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
@@ -67,6 +66,7 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Рустам\.
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\6aa0cea5fc20340a27f59ae28b8f70c7\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ff24693bb848e47d227925b3faec36e3\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Рустам\.gradle\caches\transforms-4\fcf7144f49d0808a1998cfaa6145958e\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.insert-koin:koin-android:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\118d575b471145f73eb01d6b6565df1f\transformed\jetified-koin-android-2.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\d6297b9c9473e1ff42821b8050eb01b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\66208de77adecd5cee9d9773919d1530\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\8696adebc25b16e98c1d58259bdb2c23\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -97,14 +97,14 @@ ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:5:5-67
 application
 ADDED from C:\MovieSearch\app\src\main\AndroidManifest.xml:7:5-38:19
 INJECTED from C:\MovieSearch\app\src\main\AndroidManifest.xml:7:5-38:19
-MERGED from [io.insert-koin:koin-androidx-scope:2.2.3] C:\Users\Рустам\.gradle\caches\transforms-4\ea3397927fd489dd9d5c59167c26667d\transformed\jetified-koin-androidx-scope-2.2.3\AndroidManifest.xml:7:5-20
-MERGED from [io.insert-koin:koin-androidx-scope:2.2.3] C:\Users\Рустам\.gradle\caches\transforms-4\ea3397927fd489dd9d5c59167c26667d\transformed\jetified-koin-androidx-scope-2.2.3\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Рустам\.gradle\caches\transforms-4\5442f0d6e13430a2b871add0197574b3\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Рустам\.gradle\caches\transforms-4\5442f0d6e13430a2b871add0197574b3\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\e1aeab1b4caca0b765d19b21928a998f\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:36:5-49:19
 MERGED from [com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\e1aeab1b4caca0b765d19b21928a998f\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:36:5-49:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Рустам\.gradle\caches\transforms-4\37aa90b5013525120526c3873257aecf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Рустам\.gradle\caches\transforms-4\37aa90b5013525120526c3873257aecf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [io.insert-koin:koin-androidx-scope:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\ddd34449a7e84b236469ffe3663b87da\transformed\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-scope:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\ddd34449a7e84b236469ffe3663b87da\transformed\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.airbnb.android:lottie:3.4.4] C:\Users\Рустам\.gradle\caches\transforms-4\5599559160aeb593c7ed6fd2fb8a01a1\transformed\jetified-lottie-3.4.4\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.4.4] C:\Users\Рустам\.gradle\caches\transforms-4\5599559160aeb593c7ed6fd2fb8a01a1\transformed\jetified-lottie-3.4.4\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Рустам\.gradle\caches\transforms-4\40424fb001bb350cffd780f6d7ecf925\transformed\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
@@ -201,8 +201,6 @@ MERGED from [com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding:4.3.2] 
 MERGED from [com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding:4.3.2] C:\Users\Рустам\.gradle\caches\transforms-4\e2750624794218e037488025be442719\transformed\jetified-adapterdelegates4-kotlin-dsl-viewbinding-4.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:8.4.2] C:\Users\Рустам\.gradle\caches\transforms-4\b80b69b60592c132aee733e278e8fc10\transformed\jetified-viewbinding-8.4.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.4.2] C:\Users\Рустам\.gradle\caches\transforms-4\b80b69b60592c132aee733e278e8fc10\transformed\jetified-viewbinding-8.4.2\AndroidManifest.xml:5:5-44
-MERGED from [io.insert-koin:koin-androidx-scope:2.2.3] C:\Users\Рустам\.gradle\caches\transforms-4\ea3397927fd489dd9d5c59167c26667d\transformed\jetified-koin-androidx-scope-2.2.3\AndroidManifest.xml:5:5-44
-MERGED from [io.insert-koin:koin-androidx-scope:2.2.3] C:\Users\Рустам\.gradle\caches\transforms-4\ea3397927fd489dd9d5c59167c26667d\transformed\jetified-koin-androidx-scope-2.2.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\462baee86758b2c3ae95dfa2841e539c\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\462baee86758b2c3ae95dfa2841e539c\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\a15e4a78876b4e3bede9e333a1e669f6\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
@@ -221,12 +219,12 @@ MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Рустам\.gra
 MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\9257917c8a2d1208f800a3d1e6d70337\transformed\navigation-ui-2.7.7\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Рустам\.gradle\caches\transforms-4\5442f0d6e13430a2b871add0197574b3\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Рустам\.gradle\caches\transforms-4\5442f0d6e13430a2b871add0197574b3\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [io.insert-koin:koin-android:2.2.3] C:\Users\Рустам\.gradle\caches\transforms-4\31156855d3dcc4273b8efd02ebd29e71\transformed\jetified-koin-android-2.2.3\AndroidManifest.xml:5:5-44
-MERGED from [io.insert-koin:koin-android:2.2.3] C:\Users\Рустам\.gradle\caches\transforms-4\31156855d3dcc4273b8efd02ebd29e71\transformed\jetified-koin-android-2.2.3\AndroidManifest.xml:5:5-44
 MERGED from [com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\e1aeab1b4caca0b765d19b21928a998f\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:21:5-44
 MERGED from [com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\e1aeab1b4caca0b765d19b21928a998f\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Рустам\.gradle\caches\transforms-4\37aa90b5013525120526c3873257aecf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Рустам\.gradle\caches\transforms-4\37aa90b5013525120526c3873257aecf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-androidx-scope:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\ddd34449a7e84b236469ffe3663b87da\transformed\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-scope:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\ddd34449a7e84b236469ffe3663b87da\transformed\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.airbnb.android:lottie:3.4.4] C:\Users\Рустам\.gradle\caches\transforms-4\5599559160aeb593c7ed6fd2fb8a01a1\transformed\jetified-lottie-3.4.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.4.4] C:\Users\Рустам\.gradle\caches\transforms-4\5599559160aeb593c7ed6fd2fb8a01a1\transformed\jetified-lottie-3.4.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Рустам\.gradle\caches\transforms-4\2e8e2242042d6e7cd0b3dd003b233c4d\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
@@ -249,10 +247,10 @@ MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Рустам\.gr
 MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Рустам\.gradle\caches\transforms-4\34c61b0bc20763b814becc53e70b70e6\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Рустам\.gradle\caches\transforms-4\30951fa6c6c606ac179c2e634b4ad984\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Рустам\.gradle\caches\transforms-4\30951fa6c6c606ac179c2e634b4ad984\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\26616611b348286e4c3da1f7c68c4628\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\26616611b348286e4c3da1f7c68c4628\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\8caf8c92be6970c879fba77be7d899b1\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\8caf8c92be6970c879fba77be7d899b1\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\26616611b348286e4c3da1f7c68c4628\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\26616611b348286e4c3da1f7c68c4628\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\Рустам\.gradle\caches\transforms-4\f67a4e8f7510446baa51bedf723b7840\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\Рустам\.gradle\caches\transforms-4\f67a4e8f7510446baa51bedf723b7840\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.9.0] C:\Users\Рустам\.gradle\caches\transforms-4\0517e795b825e7d1ff974b1da1f67695\transformed\jetified-activity-1.9.0\AndroidManifest.xml:20:5-44
@@ -293,10 +291,10 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Рустам\.gr
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Рустам\.gradle\caches\transforms-4\d361758d3a31b7016c90539888758499\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Рустам\.gradle\caches\transforms-4\c33822bccb15898986dc778fc68e335e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Рустам\.gradle\caches\transforms-4\c33822bccb15898986dc778fc68e335e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ebb300eb1cfc2055b5ecf7363956282f\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ebb300eb1cfc2055b5ecf7363956282f\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\db92d3ca798a3404087b159e04c6394f\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\db92d3ca798a3404087b159e04c6394f\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ebb300eb1cfc2055b5ecf7363956282f\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ebb300eb1cfc2055b5ecf7363956282f\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\259898560a933ea089995bbb5bfaa9e4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\259898560a933ea089995bbb5bfaa9e4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\b73ce9201de049ba88b3b5f8cec9680e\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
@@ -317,6 +315,8 @@ MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Рустам\.gradle\caches
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ff24693bb848e47d227925b3faec36e3\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Рустам\.gradle\caches\transforms-4\fcf7144f49d0808a1998cfaa6145958e\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Рустам\.gradle\caches\transforms-4\fcf7144f49d0808a1998cfaa6145958e\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\118d575b471145f73eb01d6b6565df1f\transformed\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\118d575b471145f73eb01d6b6565df1f\transformed\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\d6297b9c9473e1ff42821b8050eb01b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\d6297b9c9473e1ff42821b8050eb01b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\66208de77adecd5cee9d9773919d1530\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
