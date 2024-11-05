@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.moviesearch.app-mergeDebugResources-55:/values-port/values-port.xml",
+            "outputFile": "com.example.moviesearch.app-mergeDebugResources-2:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\1995aa17d03e593210e0c6874e2aea25\\transformed\\car-ui-lib-2.6.0\\res\\values-port\\values.xml",
+                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\1995aa17d03e593210e0c6874e2aea25\\transformed\\car-ui-lib-2.6.0\\res\\values-port\\values.xml",
                     "from": {
                         "startLines": "4,7,8",
                         "startColumns": "0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\0d14e9301d50bce0282b9e3c70a60548\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\0d14e9301d50bce0282b9e3c70a60548\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
