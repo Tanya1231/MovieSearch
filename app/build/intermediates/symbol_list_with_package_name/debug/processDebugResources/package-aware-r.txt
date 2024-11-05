@@ -3441,7 +3441,6 @@ drawable background_later
 drawable background_main
 drawable background_search_view
 drawable baseline_favorite_border_24
-drawable beginning
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3511,7 +3510,6 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable django
 drawable favourites
 drawable ic_arrow_back_black_24
 drawable ic_arrow_down_24dp
@@ -3537,11 +3535,8 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable indeterminate_static
-drawable interstellar
-drawable kremnievaya_dolina
 drawable later
 drawable like
-drawable lnglorious_bastards
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3615,18 +3610,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable otstupniki
-drawable parasites
 drawable preference_list_divider_material
 drawable selection_band_overlay
 drawable setting
 drawable test_level_drawable
-drawable the_green_book
 drawable to_share
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-drawable up
-drawable valley
 font rubik
 font rubik_medium
 id ALT
