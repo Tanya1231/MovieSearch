@@ -4,7 +4,7 @@
             "outputFile": "com.example.moviesearch.test.app-mergeDebugAndroidTestResources-1:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\350eb6e6b610311494caf52282007671\\transformed\\jetified-core-1.6.1\\res\\values-v18\\values.xml",
+                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\b486fa7887b00a737e38e84b104276ad\\transformed\\jetified-core-1.6.1\\res\\values-v18\\values.xml",
                     "from": {
                         "startLines": "4,12",
                         "startColumns": "0,0",
