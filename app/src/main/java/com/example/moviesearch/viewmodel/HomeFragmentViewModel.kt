@@ -6,14 +6,15 @@ import com.example.moviesearch.domain.Film
 import com.example.moviesearch.domain.Interactor
 import org.koin.core.KoinComponent
 import org.koin.core.inject
+import javax.inject.Inject
 
 
 class HomeFragmentViewModel : ViewModel(), KoinComponent {
     val filmsListLiveData: MutableLiveData<List<Film>> = MutableLiveData()
 
     //Инициализируем интерактор
-    private val interactor: Interactor by inject()
-
+    @Inject
+    lateinit var interactor: Interactor
     init {
         interactor.getFilmsFromApi(1, object : ApiCallback {
             override fun onSuccess(films: List<Film>) {
