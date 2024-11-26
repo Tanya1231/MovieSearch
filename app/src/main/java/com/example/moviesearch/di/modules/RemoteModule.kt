@@ -2,8 +2,9 @@ package com.example.moviesearch.di.modules
 
 import com.example.moviesearch.data.ApiConstants
 import com.example.moviesearch.data.TmdbApi
-import com.google.android.datatransport.runtime.dagger.Provides
+
 import dagger.Module
+import dagger.Provides
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.androidx.scope.BuildConfig
