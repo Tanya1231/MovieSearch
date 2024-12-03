@@ -14,4 +14,11 @@
     <string name="button_text">кнопка поделиться</string>
     <string name="button_favorite">кнопка избранное</string>
     <string name="menu_home_title_text">ГЛАВНАЯ</string>
+    <string name="setting">НАСТРОЙКИ</string>
+    <string name="menu_settings_title_text">Настройки</string>
+    <string name="radio_button_popular">Популярные</string>
+    <string name="radio_button_top_rated">Топ</string>
+    <string name="radio_button_upcoming">Скоро</string>
+    <string name="radio_button_playing">В кинотеатрах</string>
+    <string name="radio_group_header">Подборка на главном экране:</string>
 </resources>

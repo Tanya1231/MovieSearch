@@ -9,6 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.moviesearch.R;
@@ -27,14 +28,18 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RecyclerView mainRecycler;
 
   @NonNull
+  public final SwipeRefreshLayout pullToRefresh;
+
+  @NonNull
   public final SearchView searchView;
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout homeFragmentRoot, @NonNull RecyclerView mainRecycler,
-      @NonNull SearchView searchView) {
+      @NonNull SwipeRefreshLayout pullToRefresh, @NonNull SearchView searchView) {
     this.rootView = rootView;
     this.homeFragmentRoot = homeFragmentRoot;
     this.mainRecycler = mainRecycler;
+    this.pullToRefresh = pullToRefresh;
     this.searchView = searchView;
   }
 
@@ -73,6 +78,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.pull_to_refresh;
+      SwipeRefreshLayout pullToRefresh = ViewBindings.findChildViewById(rootView, id);
+      if (pullToRefresh == null) {
+        break missingId;
+      }
+
       id = R.id.searchView;
       SearchView searchView = ViewBindings.findChildViewById(rootView, id);
       if (searchView == null) {
@@ -80,7 +91,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, homeFragmentRoot, mainRecycler,
-          searchView);
+          pullToRefresh, searchView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

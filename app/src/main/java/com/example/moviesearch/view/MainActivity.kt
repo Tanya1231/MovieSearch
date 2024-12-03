@@ -13,6 +13,7 @@ import com.example.moviesearch.view.fragments.DetailsFragment
 import com.example.moviesearch.view.fragments.FavoritesFragment
 import com.example.moviesearch.view.fragments.HomeFragment
 import com.example.moviesearch.view.fragments.LaterFragment
+import com.example.moviesearch.view.fragments.SettingsFragment
 import com.google.android.material.switchmaterial.SwitchMaterial
 
 class MainActivity : AppCompatActivity() {
@@ -111,6 +112,13 @@ class MainActivity : AppCompatActivity() {
                     val tag = "selections"
                     val fragment = checkFragmentExistence(tag)
                     changeFragment(fragment ?: CollectionFragment(), tag)
+                    true
+                }
+
+                R.id.settings -> {
+                    val tag = "settings"
+                    val fragment = checkFragmentExistence(tag)
+                    changeFragment( fragment?: SettingsFragment(), tag)
                     true
                 }
 
