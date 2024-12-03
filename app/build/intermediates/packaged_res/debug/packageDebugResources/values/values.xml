@@ -38,8 +38,15 @@
     <string name="menu">МЕНЮ</string>
     <string name="menuToolbar">Меню для тулбара</string>
     <string name="menu_home_title_text">ГЛАВНАЯ</string>
+    <string name="menu_settings_title_text">Настройки</string>
     <string name="menu_toolbar">Меню для тулбара</string>
     <string name="moviesearch">MovieSearch</string>
+    <string name="radio_button_playing">В кинотеатрах</string>
+    <string name="radio_button_popular">Популярные</string>
+    <string name="radio_button_top_rated">Топ</string>
+    <string name="radio_button_upcoming">Скоро</string>
+    <string name="radio_group_header">Подборка на главном экране:</string>
+    <string name="setting">НАСТРОЙКИ</string>
     <string name="settings">НАСТРОЙКИ</string>
     <string name="title_menu">Заголовок меню</string>
     <string name="watch_later">ПОСМОТРЕТЬ ПОЗЖЕ</string>

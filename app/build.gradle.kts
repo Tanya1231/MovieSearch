@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.car.ui.lib)
     implementation(libs.transport.runtime)
+    implementation(libs.androidx.swiperefreshlayout)
     testImplementation(libs.junit)
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     androidTestImplementation(libs.androidx.junit)

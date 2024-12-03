@@ -1305,6 +1305,7 @@ attr suggestionRowLayout
 attr summary
 attr summaryOff
 attr summaryOn
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchPreferenceCompatStyle
@@ -3613,6 +3614,7 @@ drawable notify_panel_notification_icon_bg
 drawable preference_list_divider_material
 drawable selection_band_overlay
 drawable setting
+drawable settings
 drawable test_level_drawable
 drawable to_share
 drawable tooltip_frame_dark
@@ -4134,8 +4136,14 @@ id pressed
 id primarySwitch
 id progress_circular
 id progress_horizontal
+id pull_to_refresh
 id radio
 id radio_button
+id radio_group
+id radio_now_playing
+id radio_popular
+id radio_top_rated
+id radio_upcoming
 id ratingDonut
 id ratio
 id rectangles
@@ -4186,6 +4194,7 @@ id selected
 id selection_type
 id selections
 id settings
+id settingsFragmentRoot
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -4527,6 +4536,7 @@ layout fragment_details
 layout fragment_favorites
 layout fragment_home
 layout fragment_later
+layout fragment_settings
 layout image_frame
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
@@ -4739,6 +4749,7 @@ string material_timepicker_text_input_mode_description
 string menu
 string menuToolbar
 string menu_home_title_text
+string menu_settings_title_text
 string menu_toolbar
 string moviesearch
 string mtrl_badge_numberless_content_description
@@ -4812,10 +4823,16 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string preference_copied
+string radio_button_playing
+string radio_button_popular
+string radio_button_top_rated
+string radio_button_upcoming
+string radio_group_header
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string setting
 string settings
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
@@ -6245,6 +6262,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable SwitchPreference android_summaryOn android_summaryOff android_disableDependentsState android_switchTextOn android_switchTextOff disableDependentsState summaryOff summaryOn switchTextOff switchTextOn
