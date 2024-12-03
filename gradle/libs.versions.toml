@@ -17,6 +17,7 @@ recyclerview = "1.3.2"
 recyclerviewSelection = "1.1.0"
 activity = "1.9.0"
 carUiLib = "2.6.0"
+transportRuntime = "4.0.0"
 
 [libraries]
 adapterdelegates4-kotlin-dsl = { module = "com.hannesdorfmann:adapterdelegates4-kotlin-dsl", version.ref = "adapterdelegates4KotlinDsl" }
@@ -37,6 +38,7 @@ androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation
 material-v120 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 car-ui-lib = { group = "com.android.car.ui", name = "car-ui-lib", version.ref = "carUiLib" }
+transport-runtime = { group = "com.google.android.datatransport", name = "transport-runtime", version.ref = "transportRuntime" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

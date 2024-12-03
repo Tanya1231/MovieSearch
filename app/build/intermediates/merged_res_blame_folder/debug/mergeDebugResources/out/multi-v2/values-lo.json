@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.moviesearch.app-mergeDebugResources-2:/values-lo/values-lo.xml",
+            "outputFile": "com.example.moviesearch.app-mergeDebugResources-55:/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\8129a713dc96c49d9e933c2acaeeecd1\\transformed\\preference-1.1.1\\res\\values-lo\\values-lo.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,175,261,340,478,647,727",
-                        "endColumns": "69,85,78,137,168,79,77",
-                        "endOffsets": "170,256,335,473,642,722,800"
-                    },
-                    "to": {
-                        "startLines": "60,63,127,129,135,136,137",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "5652,5855,10906,11064,11623,11792,11872",
-                        "endColumns": "69,85,78,137,168,79,77",
-                        "endOffsets": "5717,5936,10980,11197,11787,11867,11945"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\5442f0d6e13430a2b871add0197574b3\\transformed\\material-1.12.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\6912fa5ed1e37c8469db8ddd79b7939d\\transformed\\material-1.12.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\0d14e9301d50bce0282b9e3c70a60548\\transformed\\appcompat-1.7.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\8211fa2a853196c75b6a7396997288e1\\transformed\\appcompat-1.7.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\179b2bb48bc25c94413cc0ef6760daaf\\transformed\\core-1.13.1\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\5de063c29d4a6a709f16f76805aa1073\\transformed\\core-1.13.1\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -74,24 +57,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\e1aeab1b4caca0b765d19b21928a998f\\transformed\\jetified-car-ui-lib-2.6.0\\res\\values-lo\\values.xml",
+                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\b58383fac48516019741b63cba254953\\transformed\\preference-1.1.1\\res\\values-lo\\values-lo.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "212,304,390,477,599,696,792,909,1005,1104,1202,1307",
-                        "endColumns": "91,85,86,121,96,95,116,95,98,97,104,104",
-                        "endOffsets": "303,389,476,598,695,791,908,1004,1103,1201,1306,1411"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,175,261,340,478,647,727",
+                        "endColumns": "69,85,78,137,168,79,77",
+                        "endOffsets": "170,256,335,473,642,722,800"
                     },
                     "to": {
-                        "startLines": "45,46,47,48,49,50,51,52,53,54,55,56",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4087,4183,4273,4364,4490,4591,4691,4812,4912,5015,5117,5226",
-                        "endColumns": "95,89,90,125,100,99,120,99,102,101,108,108",
-                        "endOffsets": "4178,4268,4359,4485,4586,4686,4807,4907,5010,5112,5221,5330"
+                        "startLines": "60,63,127,129,135,136,137",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "5652,5855,10906,11064,11623,11792,11872",
+                        "endColumns": "69,85,78,137,168,79,77",
+                        "endOffsets": "5717,5936,10980,11197,11787,11867,11945"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\9257917c8a2d1208f800a3d1e6d70337\\transformed\\navigation-ui-2.7.7\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\bba91f2bc2dc896ae380d5dd8be2bd46\\transformed\\navigation-ui-2.7.7\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -105,6 +88,23 @@
                         "startOffsets": "10687,10796",
                         "endColumns": "108,109",
                         "endOffsets": "10791,10901"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\206f966ecb8656ac6bd19d2f34229ffa\\transformed\\jetified-car-ui-lib-2.6.0\\res\\values-lo\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "212,304,390,477,599,696,792,909,1005,1104,1202,1307",
+                        "endColumns": "91,85,86,121,96,95,116,95,98,97,104,104",
+                        "endOffsets": "303,389,476,598,695,791,908,1004,1103,1201,1306,1411"
+                    },
+                    "to": {
+                        "startLines": "45,46,47,48,49,50,51,52,53,54,55,56",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4087,4183,4273,4364,4490,4591,4691,4812,4912,5015,5117,5226",
+                        "endColumns": "95,89,90,125,100,99,120,99,102,101,108,108",
+                        "endOffsets": "4178,4268,4359,4485,4586,4686,4807,4907,5010,5112,5221,5330"
                     }
                 }
             ]
