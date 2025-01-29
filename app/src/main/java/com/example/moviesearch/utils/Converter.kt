@@ -1,6 +1,6 @@
 package com.example.moviesearch.utils
 
-import com.example.moviesearch.data.Entity.TmdbFilm
+import com.example.moviesearch.data.entity.TmdbFilm
 import com.example.moviesearch.domain.Film
 
 object Converter {

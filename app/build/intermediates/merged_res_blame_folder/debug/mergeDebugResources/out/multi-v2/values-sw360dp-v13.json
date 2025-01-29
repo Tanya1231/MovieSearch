@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.moviesearch.app-mergeDebugResources-56:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.example.moviesearch.app-mergeDebugResources-2:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\bce6b599c78482c127fa9d006b4738e6\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\bce6b599c78482c127fa9d006b4738e6\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

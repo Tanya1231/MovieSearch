@@ -1,210 +1,210 @@
 [
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_fragment_details.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/fragment_details.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/anim_layout_animation.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/anim/layout_animation.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_like.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/like.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_background_later.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/background_later.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_fragment_later.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/fragment_later.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_compilations.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/compilations.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/xml/data_extraction_rules.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_activity_splash.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_background_home.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/background_home.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_fragment_home.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/fragment_home.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_fragment_collection.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/fragment_collection.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_background_main.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/background_main.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_baseline_favorite_border_24.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/baseline_favorite_border_24.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/font_rubik.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/font/rubik.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/animator_elevation.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/animator/elevation.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_baseline_favorite_border_24.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/baseline_favorite_border_24.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_background_search_view.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/background_search_view.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_setting.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/setting.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/font_rubik_medium.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/font/rubik_medium.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_background_collection.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/background_collection.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_background_main.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/background_main.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_ic_baseline_home_24.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/ic_baseline_home_24.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_like.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/like.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_settings.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/settings.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_fragment_favorites.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/fragment_favorites.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/anim_my_animation.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/anim/my_animation.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_fragment_later.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/fragment_later.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/xml_backup_rules.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/xml/backup_rules.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_fragment_settings.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/fragment_settings.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_fragment_home.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/menu_menu_navigation.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/menu/menu_navigation.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_background_later.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/background_later.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_menu.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/menu.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_later.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/later.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/font_rubik_medium.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/font/rubik_medium.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_favourites.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/favourites.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_later.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/later.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_fragment_settings.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/fragment_settings.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_fragment_collection.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/fragment_collection.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_activity_main.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/activity_main.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/menu_menu_toolbar.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/menu/menu_toolbar.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_ic_baseline_home_24.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/ic_baseline_home_24.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_settings.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/settings.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_fragment_favorites.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/fragment_favorites.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_to_share.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/to_share.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_background_search_view.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/background_search_view.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/font_rubik.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/font/rubik.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_to_share.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/to_share.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_corner_backgound.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/corner_backgound.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_background_favorites.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/background_favorites.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_ic_movie.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/ic_movie.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/menu_menu_navigation.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/menu/menu_navigation.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_ic_movie.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/ic_movie.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_background_collection.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/background_collection.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/menu_menu_toolbar.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/menu/menu_toolbar.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/anim_my_animation.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/anim/my_animation.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_activity_splash.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/activity_splash.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_background_home.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/background_home.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_setting.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/setting.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/raw_animation.json.flat",
-        "source": "com.example.moviesearch.app-main-60:/raw/animation.json"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.moviesearch.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_fragment_details.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/fragment_details.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/anim_layout_animation.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/anim/layout_animation.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/layout_film_item.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/layout/film_item.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/layout_film_item.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/layout/film_item.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_background_favorites.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/background_favorites.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/drawable_menu.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/drawable/menu.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_corner_backgound.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/corner_backgound.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/navigation_navigation.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/navigation/navigation.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_compilations.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/compilations.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/raw_animation.json.flat",
+        "source": "com.example.moviesearch.app-main-6:/raw/animation.json"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/drawable_favourites.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/drawable/favourites.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/animator_elevation.xml.flat",
+        "source": "com.example.moviesearch.app-main-6:/animator/elevation.xml"
     },
     {
-        "merged": "com.example.moviesearch.app-debug-58:/navigation_navigation.xml.flat",
-        "source": "com.example.moviesearch.app-main-60:/navigation/navigation.xml"
+        "merged": "com.example.moviesearch.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
     }
 ]

@@ -1,6 +1,6 @@
 package com.example.moviesearch.domain
 
-import com.example.moviesearch.data.Entity.TmdbResults
+import com.example.moviesearch.data.entity.TmdbResults
 import com.example.moviesearch.data.MainRepository
 import com.example.moviesearch.data.TmdbApi
 import com.example.moviesearch.utils.Converter
