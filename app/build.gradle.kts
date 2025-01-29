@@ -50,10 +50,10 @@ android {
 
 dependencies {
 
-    val room_version = "2.4.1"
-    implementation ("androidx.room:room-runtime:$room_version")
-    annotationProcessor ("androidx.room:room-compiler:$room_version")
-    implementation ("androidx.room:room-ktx:$room_version")
+    implementation ("androidx.room:room-runtime:2.6.1")
+    kapt ("androidx.room:room-compiler:2.6.1")
+    // опционально — поддержка расширений Kotlin и корутин для Room
+    implementation ("androidx.room:room-ktx:2.6.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -87,10 +87,10 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:3.12.6")
     //dagger
     kapt ("org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.9.0")
-    implementation ("com.google.dagger:dagger:2.50")
-    implementation ("com.google.dagger:dagger-android:2.50")
-    implementation ("com.google.dagger:dagger-android-support:2.50")
-    kapt ("com.google.dagger:dagger-compiler:2.50")
-    kapt ("com.google.dagger:dagger-android-processor:2.50")
+    implementation ("com.google.dagger:dagger:2.46")
+    implementation ("com.google.dagger:dagger-android:2.46")
+    implementation ("com.google.dagger:dagger-android-support:2.46")
+    kapt ("com.google.dagger:dagger-compiler:2.46")
+    kapt ("com.google.dagger:dagger-android-processor:2.46")
     implementation("androidx.core:core-ktx:1.3.2")
 }
