@@ -50,10 +50,10 @@ android {
 
 dependencies {
 
-    implementation ("androidx.room:room-runtime:2.2.6")
-    kapt ("androidx.room:room-compiler:2.2.6")
-    // опционально — поддержка расширений Kotlin и корутин для Room
-    implementation ("androidx.room:room-ktx:2.2.6")
+    val room_version = "2.4.1"
+    implementation ("androidx.room:room-runtime:$room_version")
+    annotationProcessor ("androidx.room:room-compiler:$room_version")
+    implementation ("androidx.room:room-ktx:$room_version")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

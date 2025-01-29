@@ -18,7 +18,7 @@ MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] C:\Users\Рус�
 MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\114fa98317fd34695eccf02a3d547962\transformed\navigation-ui-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\fa68deb011e1d0c15d4196dfde072472\transformed\navigation-ui-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Рустам\.gradle\caches\transforms-4\1ad375f902a0e261b7ad365b6daff169\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\ab5c21dcfc3cda1ee42760b03dd8e2ed\transformed\jetified-room-ktx-2.2.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\6774b095527881ae81b93e76b9e28604\transformed\jetified-room-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:17:1-51:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Рустам\.gradle\caches\transforms-4\2ad8c15b3378e2709187ccd1eaaaf442\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [io.insert-koin:koin-androidx-scope:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\a0fe49e3f4d52bcc531391181884af8b\transformed\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:2:1-9:12
@@ -68,13 +68,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Рустам\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\e06104d6cd710757033ff61934d7ab8c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\58f1d6b15361f53967ab6dbbd1e90baf\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\8cd2e3648d0d12096473c8bdaf5f9ecb\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Рустам\.gradle\caches\transforms-4\7fe7309c5ecbe7e74160edc4428e153c\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [io.insert-koin:koin-android:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\52b7c2ef7ad4d49cdf8f1843911d4532\transformed\jetified-koin-android-2.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.dagger:dagger-android:2.50] C:\Users\Рустам\.gradle\caches\transforms-4\e6afa94ecd751a19548712ae2ccdf7bb\transformed\jetified-dagger-android-2.50\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\756a3266005456e4d12313b2c1c544a1\transformed\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\151e5618c4f4b93293ab9a5bdda0a306\transformed\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Рустам\.gradle\caches\transforms-4\a6d09c20a22503ad40931fd59dee803e\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Рустам\.gradle\caches\transforms-4\2b2a7b361a1600e8c1c623fc91e96e4c\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\9c45a44a883831efdbed54c8df96493d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\02b3b1a37458fd233c7f6562a93d3f5a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -129,10 +129,10 @@ MERGED from [androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\tra
 MERGED from [androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:24:5-29:19
 MERGED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:23:5-37:19
 MERGED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:23:5-37:19
-MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:24:5-29:19
-MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Рустам\.gradle\caches\transforms-4\a93cadbba0e17468c889c0219bc5fa96\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
@@ -233,8 +233,8 @@ MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Рустам\.gra
 MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Рустам\.gradle\caches\transforms-4\fa68deb011e1d0c15d4196dfde072472\transformed\navigation-ui-2.7.7\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Рустам\.gradle\caches\transforms-4\1ad375f902a0e261b7ad365b6daff169\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Рустам\.gradle\caches\transforms-4\1ad375f902a0e261b7ad365b6daff169\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\ab5c21dcfc3cda1ee42760b03dd8e2ed\transformed\jetified-room-ktx-2.2.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\ab5c21dcfc3cda1ee42760b03dd8e2ed\transformed\jetified-room-ktx-2.2.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\6774b095527881ae81b93e76b9e28604\transformed\jetified-room-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\6774b095527881ae81b93e76b9e28604\transformed\jetified-room-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:21:5-44
 MERGED from [com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Рустам\.gradle\caches\transforms-4\2ad8c15b3378e2709187ccd1eaaaf442\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -333,6 +333,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\�
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\58f1d6b15361f53967ab6dbbd1e90baf\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\8cd2e3648d0d12096473c8bdaf5f9ecb\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\8cd2e3648d0d12096473c8bdaf5f9ecb\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Рустам\.gradle\caches\transforms-4\7fe7309c5ecbe7e74160edc4428e153c\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Рустам\.gradle\caches\transforms-4\7fe7309c5ecbe7e74160edc4428e153c\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\52b7c2ef7ad4d49cdf8f1843911d4532\transformed\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
@@ -341,12 +343,10 @@ MERGED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\
 MERGED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.dagger:dagger-android:2.50] C:\Users\Рустам\.gradle\caches\transforms-4\e6afa94ecd751a19548712ae2ccdf7bb\transformed\jetified-dagger-android-2.50\AndroidManifest.xml:20:5-44
 MERGED from [com.google.dagger:dagger-android:2.50] C:\Users\Рустам\.gradle\caches\transforms-4\e6afa94ecd751a19548712ae2ccdf7bb\transformed\jetified-dagger-android-2.50\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\756a3266005456e4d12313b2c1c544a1\transformed\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\756a3266005456e4d12313b2c1c544a1\transformed\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\151e5618c4f4b93293ab9a5bdda0a306\transformed\sqlite-2.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Рустам\.gradle\caches\transforms-4\151e5618c4f4b93293ab9a5bdda0a306\transformed\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Рустам\.gradle\caches\transforms-4\a6d09c20a22503ad40931fd59dee803e\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Рустам\.gradle\caches\transforms-4\a6d09c20a22503ad40931fd59dee803e\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Рустам\.gradle\caches\transforms-4\2b2a7b361a1600e8c1c623fc91e96e4c\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Рустам\.gradle\caches\transforms-4\2b2a7b361a1600e8c1c623fc91e96e4c\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\9c45a44a883831efdbed54c8df96493d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\9c45a44a883831efdbed54c8df96493d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
@@ -481,6 +481,14 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.g
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:26:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:20:5-79
 	android:name
@@ -505,14 +513,6 @@ ADDED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\�
 		ADDED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:36:13-37
 	android:name
 		ADDED from [com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:35:13-103
-service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
-	android:exported
-		ADDED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
-	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
-	android:name
-		ADDED from [androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 	android:value

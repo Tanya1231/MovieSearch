@@ -175,36 +175,36 @@
 99-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
 100
 101        <service
-101-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:24:9-28:19
-102            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-102-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:25:13-117
-103            android:exported="false"
-103-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:26:13-37
-104            android:permission="android.permission.BIND_JOB_SERVICE" >
-104-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:27:13-69
-105        </service>
-106
-107        <receiver
-107-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:30:9-32:40
-108            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-108-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:31:13-132
-109            android:exported="false" />
-109-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:32:13-37
+101-->[androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:25:9-28:40
+102            android:name="androidx.room.MultiInstanceInvalidationService"
+102-->[androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:26:13-74
+103            android:directBootAware="true"
+103-->[androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:27:13-43
+104            android:exported="false" />
+104-->[androidx.room:room-runtime:2.4.1] C:\Users\Рустам\.gradle\caches\transforms-4\414d0208a4a173792033438130c8a5a4\transformed\room-runtime-2.4.1\AndroidManifest.xml:28:13-37
+105        <service
+105-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:24:9-28:19
+106            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+106-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:25:13-117
+107            android:exported="false"
+107-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:26:13-37
+108            android:permission="android.permission.BIND_JOB_SERVICE" >
+108-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:27:13-69
+109        </service>
 110
-111        <service
-111-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:34:9-36:40
-112            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-112-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:35:13-103
+111        <receiver
+111-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:30:9-32:40
+112            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+112-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:31:13-132
 113            android:exported="false" />
-113-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:36:13-37
-114        <service
-114-->[androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
-115            android:name="androidx.room.MultiInstanceInvalidationService"
-115-->[androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
-116            android:directBootAware="true"
-116-->[androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+113-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:32:13-37
+114
+115        <service
+115-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:34:9-36:40
+116            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+116-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:35:13-103
 117            android:exported="false" />
-117-->[androidx.room:room-runtime:2.2.6] C:\Users\Рустам\.gradle\caches\transforms-4\14c1e38878c3fcfb4d292278dc953e54\transformed\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+117-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:36:13-37
 118
 119        <receiver
 119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
