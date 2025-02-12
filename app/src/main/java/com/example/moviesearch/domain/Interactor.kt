@@ -30,7 +30,7 @@ class Interactor(
                     list.forEach {
                         repo.putToDb(list)
                     }
-                    callback.onSuccess(list)
+                    callback.onSuccess()
                 }
 
                 override fun onFailure(call: Call<TmdbResults>, t: Throwable) {
