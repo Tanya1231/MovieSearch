@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.example.moviesearch.R
 import com.example.moviesearch.databinding.ActivityMainBinding
-import com.example.moviesearch.domain.Film
+import com.example.moviesearch.data.entity.Film
 import com.example.moviesearch.view.fragments.CollectionFragment
 import com.example.moviesearch.view.fragments.DetailsFragment
 import com.example.moviesearch.view.fragments.FavoritesFragment

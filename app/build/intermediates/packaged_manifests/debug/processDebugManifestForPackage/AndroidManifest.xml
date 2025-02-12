@@ -64,6 +64,11 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
         <provider
             android:name="com.android.car.ui.core.CarUiInstaller"
             android:authorities="com.example.moviesearch.CarUiInstaller"
@@ -110,10 +115,6 @@
 
         <service
             android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-            android:exported="false" />
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
             android:exported="false" />
 
         <receiver

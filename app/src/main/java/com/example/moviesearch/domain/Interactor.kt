@@ -1,5 +1,6 @@
 package com.example.moviesearch.domain
 
+import androidx.lifecycle.LiveData
 import com.example.moviesearch.data.entity.TmdbResults
 import com.example.moviesearch.data.MainRepository
 import com.example.moviesearch.data.TmdbApi
@@ -7,6 +8,7 @@ import com.example.moviesearch.utils.Converter
 import com.example.moviesearch.viewmodel.HomeFragmentViewModel
 import com.example.moviesearch.API
 import com.example.moviesearch.data.PreferenceProvider
+import com.example.moviesearch.data.entity.Film
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -26,9 +28,9 @@ class Interactor(
                     val list = Converter.convertApiListToDtoList(response.body()?.tmdbFilms)
                     //Кладем фильмы в бд
                     list.forEach {
-                        repo.putToDb(film = it)
+                        repo.putToDb(list)
                     }
-                    callback.onSuccess(list)
+                    callback.onSuccess()
                 }
 
                 override fun onFailure(call: Call<TmdbResults>, t: Throwable) {
@@ -45,5 +47,5 @@ class Interactor(
 
     //Метод для получения настроек
     fun getDefaultCategoryFromPreferences() = preferences.getDefaultCategory()
-    fun getFilmsFromDB(): List<Film> = repo.getAllFromDB()
+    fun getFilmsFromDB(): LiveData<List<Film>> = repo.getAllFromDB()
 }
