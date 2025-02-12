@@ -30,9 +30,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3741cdce-9cfa-493e-afa8-68525321917a" name="Changes" comment="add recyclerview">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3741cdce-9cfa-493e-afa8-68525321917a" name="Changes" comment="edit getAllFromDB" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -342,7 +340,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719579087874</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="edit DAO">
+      <option name="closed" value="true" />
+      <created>1739358813547</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739358813547</updated>
+    </task>
+    <task id="LOCAL-00019" summary="edit getAllFromDB">
+      <option name="closed" value="true" />
+      <created>1739358945655</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739358945655</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,6 +389,8 @@
     <MESSAGE value="add animation to GridLayout" />
     <MESSAGE value="add animation image" />
     <MESSAGE value="add recyclerview" />
-    <option name="LAST_COMMIT_MESSAGE" value="add recyclerview" />
+    <MESSAGE value="edit DAO" />
+    <MESSAGE value="edit getAllFromDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit getAllFromDB" />
   </component>
 </project>
