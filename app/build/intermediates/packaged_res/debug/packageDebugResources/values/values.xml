@@ -32,6 +32,7 @@
     <string name="button_favorite">кнопка избранное</string>
     <string name="button_text">кнопка поделиться</string>
     <string name="compilations">ПОДБОРКИ</string>
+    <string name="downloaded_to_gallery">"Сохранено в галерею"</string>
     <string name="favourites">ИЗБРАННОЕ</string>
     <string name="image">image</string>
     <string name="image_web">Постеры предоставлены https://www.movieposters.com/</string>
@@ -41,6 +42,8 @@
     <string name="menu_settings_title_text">Настройки</string>
     <string name="menu_toolbar">Меню для тулбара</string>
     <string name="moviesearch">MovieSearch</string>
+    <string name="open">В галерею</string>
+    <string name="permission_storage">Нет разрешения. Пожалуйста, предоставьте разрешение</string>
     <string name="radio_button_playing">В кинотеатрах</string>
     <string name="radio_button_popular">Популярные</string>
     <string name="radio_button_top_rated">Топ</string>

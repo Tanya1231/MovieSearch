@@ -85,6 +85,8 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.6.0")
     implementation("com.squareup.okhttp3:logging-interceptor:3.12.6")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2")
     //dagger
     kapt ("org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.9.0")
     implementation ("com.google.dagger:dagger:2.46")
@@ -93,4 +95,5 @@ dependencies {
     kapt ("com.google.dagger:dagger-compiler:2.46")
     kapt ("com.google.dagger:dagger-android-processor:2.46")
     implementation("androidx.core:core-ktx:1.3.2")
+
 }

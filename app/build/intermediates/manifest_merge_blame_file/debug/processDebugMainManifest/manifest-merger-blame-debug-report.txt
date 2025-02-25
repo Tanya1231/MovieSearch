@@ -9,241 +9,247 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\MovieSearch\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\MovieSearch\app\src\main\AndroidManifest.xml:5:22-64
-12
-13    <queries>
-13-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:23:5-34:15
+11-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:7:22-77
 14
-15        <!-- Required for querying the IME service at runtime -->
-16        <intent>
-16-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:26:9-28:18
-17            <action android:name="android.view.InputMethod" />
-17-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:27:13-63
-17-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:27:21-60
-18        </intent>
-19        <!-- Required for querying the plugin at runtime -->
-20        <provider
-20-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:30:9-33:67
-21            android:name="com.android.car.ui.plugin.PluginNameProvider"
-21-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:31:13-72
-22            android:authorities="com.android.car.ui.plugin" />
-22-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:32:13-60
-23    </queries>
-24
-25    <permission
-25-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
-26        android:name="com.example.moviesearch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-26-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
-27        android:protectionLevel="signature" />
-27-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
-28
-29    <uses-permission android:name="com.example.moviesearch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-29-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-29-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-30-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:20:5-79
-30-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:20:22-76
-31
-32    <application
-32-->C:\MovieSearch\app\src\main\AndroidManifest.xml:7:5-38:19
-33        android:name="com.example.moviesearch.App"
-33-->C:\MovieSearch\app\src\main\AndroidManifest.xml:8:9-28
-34        android:allowBackup="true"
-34-->C:\MovieSearch\app\src\main\AndroidManifest.xml:9:9-35
-35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-35-->[androidx.core:core:1.13.1] C:\Users\Рустам\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
-36        android:dataExtractionRules="@xml/data_extraction_rules"
-36-->C:\MovieSearch\app\src\main\AndroidManifest.xml:10:9-65
-37        android:debuggable="true"
-38        android:extractNativeLibs="false"
-39        android:fullBackupContent="@xml/backup_rules"
-39-->C:\MovieSearch\app\src\main\AndroidManifest.xml:11:9-54
-40        android:icon="@drawable/ic_movie"
-40-->C:\MovieSearch\app\src\main\AndroidManifest.xml:12:9-42
-41        android:label="@string/app_name"
-41-->C:\MovieSearch\app\src\main\AndroidManifest.xml:13:9-41
-42        android:roundIcon="@mipmap/ic_launcher_round"
-42-->C:\MovieSearch\app\src\main\AndroidManifest.xml:14:9-54
-43        android:supportsRtl="true"
-43-->C:\MovieSearch\app\src\main\AndroidManifest.xml:15:9-35
-44        android:testOnly="true"
-45        android:theme="@style/Base.Theme.MovieSearch" >
-45-->C:\MovieSearch\app\src\main\AndroidManifest.xml:16:9-54
-46        <activity
-46-->C:\MovieSearch\app\src\main\AndroidManifest.xml:18:9-27:20
-47            android:name="com.example.moviesearch.SplashActivity"
-47-->C:\MovieSearch\app\src\main\AndroidManifest.xml:19:13-43
-48            android:exported="true"
-48-->C:\MovieSearch\app\src\main\AndroidManifest.xml:20:13-36
-49            android:theme="@style/Theme.SplashScreen" >
-49-->C:\MovieSearch\app\src\main\AndroidManifest.xml:21:13-54
-50            <intent-filter>
-50-->C:\MovieSearch\app\src\main\AndroidManifest.xml:22:13-26:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->C:\MovieSearch\app\src\main\AndroidManifest.xml:23:17-69
-51-->C:\MovieSearch\app\src\main\AndroidManifest.xml:23:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->C:\MovieSearch\app\src\main\AndroidManifest.xml:25:17-77
-53-->C:\MovieSearch\app\src\main\AndroidManifest.xml:25:27-74
-54            </intent-filter>
-55        </activity>
-56        <activity
-56-->C:\MovieSearch\app\src\main\AndroidManifest.xml:28:9-30:40
-57            android:name="com.example.moviesearch.view.fragments.DetailsFragment"
-57-->C:\MovieSearch\app\src\main\AndroidManifest.xml:29:13-59
-58            android:exported="false" />
-58-->C:\MovieSearch\app\src\main\AndroidManifest.xml:30:13-37
-59        <activity
-59-->C:\MovieSearch\app\src\main\AndroidManifest.xml:31:9-33:40
-60            android:name="com.example.moviesearch.view.MainActivity"
-60-->C:\MovieSearch\app\src\main\AndroidManifest.xml:32:13-46
-61            android:exported="false" />
-61-->C:\MovieSearch\app\src\main\AndroidManifest.xml:33:13-37
-62
-63        <meta-data
-63-->C:\MovieSearch\app\src\main\AndroidManifest.xml:35:9-37:57
-64            android:name="preloaded_fonts"
-64-->C:\MovieSearch\app\src\main\AndroidManifest.xml:36:13-43
-65            android:resource="@array/preloaded_fonts" />
-65-->C:\MovieSearch\app\src\main\AndroidManifest.xml:37:13-54
-66
-67        <service
-67-->[androidx.room:room-runtime:2.6.1] C:\Users\Рустам\.gradle\caches\transforms-4\9a46b1d0a302de233d74c308dca87784\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-68            android:name="androidx.room.MultiInstanceInvalidationService"
-68-->[androidx.room:room-runtime:2.6.1] C:\Users\Рустам\.gradle\caches\transforms-4\9a46b1d0a302de233d74c308dca87784\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-69            android:directBootAware="true"
-69-->[androidx.room:room-runtime:2.6.1] C:\Users\Рустам\.gradle\caches\transforms-4\9a46b1d0a302de233d74c308dca87784\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-70            android:exported="false" />
-70-->[androidx.room:room-runtime:2.6.1] C:\Users\Рустам\.gradle\caches\transforms-4\9a46b1d0a302de233d74c308dca87784\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-71
-72        <provider
-72-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:37:9-42:71
-73            android:name="com.android.car.ui.core.CarUiInstaller"
-73-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:38:13-66
-74            android:authorities="com.example.moviesearch.CarUiInstaller"
-74-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:39:13-66
-75            android:directBootAware="true"
-75-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:40:13-43
-76            android:exported="false"
-76-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:41:13-37
-77            android:process="@string/car_ui_installer_process_name" />
-77-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:42:13-68
-78        <provider
-78-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:43:9-48:79
-79            android:name="com.android.car.ui.core.SearchResultsProvider"
-79-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:44:13-73
-80            android:authorities="com.example.moviesearch.SearchResultsProvider"
-80-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:45:13-73
-81            android:exported="true"
-81-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:46:13-36
-82            android:process="@string/car_ui_installer_process_name"
-82-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:47:13-68
-83            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
-83-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\Рустам\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:48:13-76
-84        <provider
-84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-85            android:name="androidx.startup.InitializationProvider"
-85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
-86            android:authorities="com.example.moviesearch.androidx-startup"
-86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
-87            android:exported="false" >
-87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
-88            <meta-data
-88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
-90                android:value="androidx.startup" />
-90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Рустам\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
-91            <meta-data
-91-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-92-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-93                android:value="androidx.startup" />
-93-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Рустам\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-94            <meta-data
-94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-96                android:value="androidx.startup" />
-96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-97        </provider>
-98
-99        <uses-library
-99-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-100            android:name="androidx.window.extensions"
-100-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-101            android:required="false" />
-101-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-102        <uses-library
-102-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-103            android:name="androidx.window.sidecar"
-103-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-104            android:required="false" />
-104-->[androidx.window:window:1.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-105
-106        <service
-106-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:24:9-28:19
-107            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-107-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:25:13-117
-108            android:exported="false"
-108-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:26:13-37
-109            android:permission="android.permission.BIND_JOB_SERVICE" >
-109-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:27:13-69
-110        </service>
-111
-112        <receiver
-112-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:30:9-32:40
-113            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-113-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:31:13-132
-114            android:exported="false" />
-114-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:32:13-37
-115
-116        <service
-116-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:34:9-36:40
-117            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-117-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:35:13-103
-118            android:exported="false" />
-118-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\Рустам\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:36:13-37
-119
-120        <receiver
-120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-121            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-122            android:directBootAware="false"
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-123            android:enabled="true"
-123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-124            android:exported="true"
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-125            android:permission="android.permission.DUMP" >
-125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-126            <intent-filter>
-126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-127                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-128            </intent-filter>
-129            <intent-filter>
-129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-130                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-131            </intent-filter>
-132            <intent-filter>
-132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-133                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-134            </intent-filter>
-135            <intent-filter>
-135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-136                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Рустам\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-137            </intent-filter>
-138        </receiver>
-139    </application>
-140
-141</manifest>
+15    <queries>
+15-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:23:5-34:15
+16
+17        <!-- Required for querying the IME service at runtime -->
+18        <intent>
+18-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:26:9-28:18
+19            <action android:name="android.view.InputMethod" />
+19-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:27:13-63
+19-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:27:21-60
+20        </intent>
+21        <!-- Required for querying the plugin at runtime -->
+22        <provider
+22-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:30:9-33:67
+23            android:name="com.android.car.ui.plugin.PluginNameProvider"
+23-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:31:13-72
+24            android:authorities="com.android.car.ui.plugin" />
+24-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:32:13-60
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.moviesearch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.moviesearch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:20:5-79
+32-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:20:22-76
+33
+34    <application
+34-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:9:5-40:19
+35        android:name="com.example.moviesearch.App"
+35-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:10:9-28
+36        android:allowBackup="true"
+36-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:11:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.13.1] C:\Users\79922\.gradle\caches\transforms-4\ae9d790f344d9ef33d985acbc2ca5894\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:12:9-65
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:fullBackupContent="@xml/backup_rules"
+41-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:13:9-54
+42        android:icon="@drawable/ic_movie"
+42-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:14:9-42
+43        android:label="@string/app_name"
+43-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:15:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:16:9-54
+45        android:supportsRtl="true"
+45-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:17:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Base.Theme.MovieSearch" >
+47-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:18:9-54
+48        <activity
+48-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:20:9-29:20
+49            android:name="com.example.moviesearch.SplashActivity"
+49-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:21:13-43
+50            android:exported="true"
+50-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:22:13-36
+51            android:theme="@style/Theme.SplashScreen" >
+51-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:23:13-54
+52            <intent-filter>
+52-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:24:13-28:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:25:17-69
+53-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:25:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:27:17-77
+55-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:27:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:30:9-32:40
+59            android:name="com.example.moviesearch.view.fragments.DetailsFragment"
+59-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:31:13-59
+60            android:exported="false" />
+60-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:32:13-37
+61        <activity
+61-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:33:9-35:40
+62            android:name="com.example.moviesearch.view.MainActivity"
+62-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:34:13-46
+63            android:exported="false" />
+63-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:35:13-37
+64
+65        <meta-data
+65-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:37:9-39:57
+66            android:name="preloaded_fonts"
+66-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:38:13-43
+67            android:resource="@array/preloaded_fonts" />
+67-->C:\Users\79922\MovieSearch\app\src\main\AndroidManifest.xml:39:13-54
+68
+69        <service
+69-->[androidx.room:room-runtime:2.6.1] C:\Users\79922\.gradle\caches\transforms-4\9a46b1d0a302de233d74c308dca87784\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+70            android:name="androidx.room.MultiInstanceInvalidationService"
+70-->[androidx.room:room-runtime:2.6.1] C:\Users\79922\.gradle\caches\transforms-4\9a46b1d0a302de233d74c308dca87784\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+71            android:directBootAware="true"
+71-->[androidx.room:room-runtime:2.6.1] C:\Users\79922\.gradle\caches\transforms-4\9a46b1d0a302de233d74c308dca87784\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+72            android:exported="false" />
+72-->[androidx.room:room-runtime:2.6.1] C:\Users\79922\.gradle\caches\transforms-4\9a46b1d0a302de233d74c308dca87784\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+73
+74        <provider
+74-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:37:9-42:71
+75            android:name="com.android.car.ui.core.CarUiInstaller"
+75-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:38:13-66
+76            android:authorities="com.example.moviesearch.CarUiInstaller"
+76-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:39:13-66
+77            android:directBootAware="true"
+77-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:40:13-43
+78            android:exported="false"
+78-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:41:13-37
+79            android:process="@string/car_ui_installer_process_name" />
+79-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:42:13-68
+80        <provider
+80-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:43:9-48:79
+81            android:name="com.android.car.ui.core.SearchResultsProvider"
+81-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:44:13-73
+82            android:authorities="com.example.moviesearch.SearchResultsProvider"
+82-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:45:13-73
+83            android:exported="true"
+83-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:46:13-36
+84            android:process="@string/car_ui_installer_process_name"
+84-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:47:13-68
+85            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+85-->[com.android.car.ui:car-ui-lib:2.6.0] C:\Users\79922\.gradle\caches\transforms-4\babb58b48dae8c455ce883d1869ec4cf\transformed\jetified-car-ui-lib-2.6.0\AndroidManifest.xml:48:13-76
+86        <provider
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+88            android:authorities="com.example.moviesearch.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\79922\.gradle\caches\transforms-4\be7aaff6a7290f72745b2a60f87bdec0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\79922\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\79922\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\79922\.gradle\caches\transforms-4\ab6a92205dbde9c02bb8918ff5e3886c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+98                android:value="androidx.startup" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+99        </provider>
+100
+101        <uses-library
+101-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+102            android:name="androidx.window.extensions"
+102-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+103            android:required="false" />
+103-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+104        <uses-library
+104-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+105            android:name="androidx.window.sidecar"
+105-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0] C:\Users\79922\.gradle\caches\transforms-4\600989c1988f2891ef64f52fddf4168e\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+107
+108        <service
+108-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:24:9-28:19
+109            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+109-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:25:13-117
+110            android:exported="false"
+110-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:26:13-37
+111            android:permission="android.permission.BIND_JOB_SERVICE" >
+111-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:27:13-69
+112        </service>
+113
+114        <receiver
+114-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:30:9-32:40
+115            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+115-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:31:13-132
+116            android:exported="false" />
+116-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:32:13-37
+117
+118        <service
+118-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:34:9-36:40
+119            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+119-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:35:13-103
+120            android:exported="false" />
+120-->[com.google.android.datatransport:transport-runtime:4.0.0] C:\Users\79922\.gradle\caches\transforms-4\40967ecf313011a4946867d18f36a5a9\transformed\jetified-transport-runtime-4.0.0\AndroidManifest.xml:36:13-37
+121
+122        <receiver
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+124            android:directBootAware="false"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+125            android:enabled="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+126            android:exported="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+127            android:permission="android.permission.DUMP" >
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\79922\.gradle\caches\transforms-4\48f77021e46cb66fe9d85d87d8489d1a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+139            </intent-filter>
+140        </receiver>
+141    </application>
+142
+143</manifest>

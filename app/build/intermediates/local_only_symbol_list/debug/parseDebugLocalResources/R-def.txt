@@ -25,6 +25,7 @@ drawable background_home
 drawable background_later
 drawable background_main
 drawable background_search_view
+drawable baseline_download_24
 drawable baseline_favorite_border_24
 drawable compilations
 drawable corner_backgound
@@ -52,6 +53,7 @@ id description
 id detailsFabFavorites
 id detailsFabShare
 id details_description
+id details_fab_download_wp
 id details_poster
 id details_toolbar
 id disclaimer
@@ -67,6 +69,7 @@ id item_container
 id main_recycler
 id nav_graph
 id poster
+id progress_bar
 id pull_to_refresh
 id radio_group
 id radio_now_playing
@@ -103,6 +106,7 @@ string app_name
 string button_favorite
 string button_text
 string compilations
+string downloaded_to_gallery
 string favourites
 string image
 string image_web
@@ -112,6 +116,8 @@ string menu_home_title_text
 string menu_settings_title_text
 string menu_toolbar
 string moviesearch
+string open
+string permission_storage
 string radio_button_playing
 string radio_button_popular
 string radio_button_top_rated
