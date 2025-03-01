@@ -1,218 +1,214 @@
 [
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_background_collection.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\background_collection.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/menu_menu_navigation.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/menu/menu_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_like.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/like.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\raw_animation.json.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\raw\\animation.json"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/menu_menu_toolbar.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/menu/menu_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_fragment_settings.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\fragment_settings.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_settings.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/settings.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_background_main.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/background_main.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_menu.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\menu.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_ic_movie.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/ic_movie.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_like.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\like.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/layout_fragment_later.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/layout/fragment_later.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_to_share.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/to_share.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/animator_elevation.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/animator/elevation.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\fragment_home.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_background_collection.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/background_collection.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\xml\\backup_rules.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_background_later.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/background_later.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_ic_movie.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\ic_movie.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.moviesearch.app-debug-62:/navigation_navigation.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/navigation/navigation.xml"
     },
     {
         "merged": "com.example.moviesearch.app-debug-62:/layout_fragment_details.xml.flat",
         "source": "com.example.moviesearch.app-main-64:/layout/fragment_details.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_favourites.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\favourites.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/xml_backup_rules.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\font_rubik_medium.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\font\\rubik_medium.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/anim_my_animation.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/anim/my_animation.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\menu_menu_navigation.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\menu\\menu_navigation.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/layout_film_item.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/layout/film_item.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_later.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\later.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/anim_layout_animation.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/anim/layout_animation.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_fragment_details.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\fragment_details.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_background_search_view.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\background_search_view.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/layout_fragment_collection.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/layout/fragment_collection.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\navigation_navigation.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\navigation\\navigation.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_background_home.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\background_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_background_favorites.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\background_favorites.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/layout_fragment_favorites.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/layout/fragment_favorites.xml"
     },
     {
         "merged": "com.example.moviesearch.app-debug-62:/drawable_baseline_download_24.xml.flat",
         "source": "com.example.moviesearch.app-main-64:/drawable/baseline_download_24.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_corner_backgound.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\corner_backgound.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/raw_animation.json.flat",
+        "source": "com.example.moviesearch.app-main-64:/raw/animation.json"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\animator_elevation.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\animator\\elevation.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_compilations.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\compilations.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_setting.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/setting.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\font_rubik.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\font\\rubik.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\anim_layout_animation.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\anim\\layout_animation.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\menu_menu_toolbar.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\menu\\menu_toolbar.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_favourites.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/favourites.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_baseline_favorite_border_24.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\baseline_favorite_border_24.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/layout_fragment_settings.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/layout/fragment_settings.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_ic_baseline_home_24.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\ic_baseline_home_24.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_background_main.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\background_main.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/font_rubik.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/font/rubik.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_baseline_favorite_border_24.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/baseline_favorite_border_24.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_to_share.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\to_share.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_corner_backgound.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/corner_backgound.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_fragment_favorites.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\fragment_favorites.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_background_search_view.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/background_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_ic_baseline_home_24.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/ic_baseline_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_settings.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\settings.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/layout_activity_main.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_fragment_collection.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\fragment_collection.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_background_home.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/background_home.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_fragment_later.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\fragment_later.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_setting.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\setting.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_later.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/later.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/font_rubik_medium.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/font/rubik_medium.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\activity_splash.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_compilations.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/compilations.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_film_item.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\film_item.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/layout_fragment_home.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\anim_my_animation.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\anim\\my_animation.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_menu.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/menu.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.moviesearch.app-debug-62:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moviesearch.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\drawable_background_later.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\drawable\\background_later.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/drawable_background_favorites.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/drawable/background_favorites.xml"
     },
     {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-debug-62:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\79922\\.gradle\\daemon\\8.6\\com.example.moviesearch.app-main-64:\\layout\\activity_main.xml"
+        "merged": "com.example.moviesearch.app-debug-62:/layout_activity_splash.xml.flat",
+        "source": "com.example.moviesearch.app-main-64:/layout/activity_splash.xml"
     }
 ]

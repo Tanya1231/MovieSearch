@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.room.InvalidationTracker
 import com.example.moviesearch.utils.AnimationHelper
 import com.example.moviesearch.view.rv_adapters.FilmListRecyclerAdapter
 import com.example.moviesearch.view.MainActivity
@@ -17,6 +17,11 @@ import com.example.moviesearch.view.rv_adapters.TopSpacingItemDecoration
 import com.example.moviesearch.databinding.FragmentHomeBinding
 import com.example.moviesearch.data.entity.Film
 import com.example.moviesearch.viewmodel.HomeFragmentViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.util.Locale
 
 class HomeFragment : Fragment() {
@@ -25,6 +30,8 @@ class HomeFragment : Fragment() {
     }
     private lateinit var filmsAdapter: FilmListRecyclerAdapter
     private lateinit var binding: FragmentHomeBinding
+    private lateinit var scope: CoroutineScope
+
 
     private var filmsDataBase = listOf<Film>()
         //Используем backing field
@@ -60,14 +67,23 @@ class HomeFragment : Fragment() {
 
         initPullToRefresh()
 
-        viewModel.filmsListLiveData.observe(viewLifecycleOwner, Observer<List<Film>> {
-            filmsDataBase = it
-            filmsAdapter.addItems(it)
-        })
-
-        viewModel.showProgressBar.observe(viewLifecycleOwner, Observer<Boolean> {
-            binding.progressBar.isVisible = it
-        })
+        scope = CoroutineScope(Dispatchers.IO).also { scope ->
+            scope.launch {
+                viewModel.filmsListData.collect {
+                    withContext(Dispatchers.Main) {
+                        filmsAdapter.addItems(it)
+                        filmsDataBase = it
+                    }
+                }
+            }
+            scope.launch {
+                for (element in viewModel.showProgressBar) {
+                    launch(Dispatchers.Main) {
+                        binding.progressBar.isVisible = element
+                    }
+                }
+            }
+        }
 
 
         //Подключаем слушателя изменений введенного текста в поиска
@@ -109,6 +125,11 @@ class HomeFragment : Fragment() {
             addItemDecoration(decorator)
         }
         filmsAdapter.addItems(filmsDataBase)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        scope.cancel()
     }
 
     private fun initPullToRefresh() {

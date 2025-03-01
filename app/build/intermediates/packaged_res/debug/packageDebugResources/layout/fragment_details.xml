@@ -79,7 +79,6 @@
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="left|bottom"
         app:srcCompat="@drawable/baseline_download_24"
-        app:tint="@android:color/black"
         tools:ignore="ContentDescription" />
 
     <ProgressBar
