@@ -1,5 +1,6 @@
 package com.example.moviesearch.view.rv_viewholders
 
+import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.moviesearch.data.ApiConstants
@@ -8,7 +9,8 @@ import com.example.moviesearch.data.entity.Film
 
 
 //В конструктор класс передается layout, который мы создали(film_item.xml)
-class FilmViewHolder(private var binding: FilmItemBinding) : RecyclerView.ViewHolder(binding.root) {
+class FilmViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    private val binding = FilmItemBinding.bind(itemView)
     private val title = binding.title
     private val poster = binding.poster
     private val description = binding.description

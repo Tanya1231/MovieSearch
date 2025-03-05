@@ -2,7 +2,7 @@ package com.example.moviesearch.data
 
 import com.example.moviesearch.data.dao.FilmDao
 import com.example.moviesearch.data.entity.Film
-import kotlinx.coroutines.flow.Flow
+import io.reactivex.rxjava3.core.Observable
 
 class MainRepository(private val filmDao: FilmDao) {
 
@@ -10,6 +10,6 @@ class MainRepository(private val filmDao: FilmDao) {
         filmDao.insertAll(films)
     }
 
-    fun getAllFromDB(): Flow<List<Film>> = filmDao.getCachedFilms()
+    fun getAllFromDB(): Observable<List<Film>> = filmDao.getCachedFilms()
 
 }
