@@ -3441,6 +3441,7 @@ drawable background_home
 drawable background_later
 drawable background_main
 drawable background_search_view
+drawable baseline_download_24
 drawable baseline_favorite_border_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3892,6 +3893,7 @@ id design_navigation_view
 id detailsFabFavorites
 id detailsFabShare
 id details_description
+id details_fab_download_wp
 id details_poster
 id details_toolbar
 id dialog_button
@@ -4134,6 +4136,7 @@ id poster
 id preference
 id pressed
 id primarySwitch
+id progress_bar
 id progress_circular
 id progress_horizontal
 id pull_to_refresh
@@ -4696,6 +4699,7 @@ string clear_text_end_icon_content_description
 string compilations
 string copy
 string dest_title
+string downloaded_to_gallery
 string error_a11y_label
 string error_icon_content_description
 string expand_button_title
@@ -4817,11 +4821,13 @@ string mtrl_timepicker_confirm
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string not_set
+string open
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string permission_storage
 string preference_copied
 string radio_button_playing
 string radio_button_popular

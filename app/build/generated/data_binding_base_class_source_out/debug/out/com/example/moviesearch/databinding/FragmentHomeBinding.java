@@ -4,6 +4,7 @@ package com.example.moviesearch.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
@@ -28,6 +29,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RecyclerView mainRecycler;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final SwipeRefreshLayout pullToRefresh;
 
   @NonNull
@@ -35,10 +39,12 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout homeFragmentRoot, @NonNull RecyclerView mainRecycler,
-      @NonNull SwipeRefreshLayout pullToRefresh, @NonNull SearchView searchView) {
+      @NonNull ProgressBar progressBar, @NonNull SwipeRefreshLayout pullToRefresh,
+      @NonNull SearchView searchView) {
     this.rootView = rootView;
     this.homeFragmentRoot = homeFragmentRoot;
     this.mainRecycler = mainRecycler;
+    this.progressBar = progressBar;
     this.pullToRefresh = pullToRefresh;
     this.searchView = searchView;
   }
@@ -78,6 +84,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progress_bar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.pull_to_refresh;
       SwipeRefreshLayout pullToRefresh = ViewBindings.findChildViewById(rootView, id);
       if (pullToRefresh == null) {
@@ -91,7 +103,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, homeFragmentRoot, mainRecycler,
-          pullToRefresh, searchView);
+          progressBar, pullToRefresh, searchView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.moviesearch.app-mergeDebugResources-2:/values-port/values-port.xml",
+            "outputFile": "com.example.moviesearch.app-mergeDebugResources-60:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\465eb9912b38e7a9eae0591a52fb56be\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Рустам\\.gradle\\caches\\transforms-4\\babb58b48dae8c455ce883d1869ec4cf\\transformed\\jetified-car-ui-lib-2.6.0\\res\\values-port\\values.xml",
+                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\babb58b48dae8c455ce883d1869ec4cf\\transformed\\jetified-car-ui-lib-2.6.0\\res\\values-port\\values.xml",
                     "from": {
                         "startLines": "4,7,8",
                         "startColumns": "0,0,0",
@@ -28,6 +18,16 @@
                         "startOffsets": "111,175,244",
                         "endColumns": "63,68,66",
                         "endOffsets": "170,239,306"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\79922\\.gradle\\caches\\transforms-4\\465eb9912b38e7a9eae0591a52fb56be\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
                     }
                 }
             ]

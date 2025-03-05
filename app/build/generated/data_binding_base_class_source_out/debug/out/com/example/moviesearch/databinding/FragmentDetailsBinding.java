@@ -4,6 +4,7 @@ package com.example.moviesearch.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,6 +32,9 @@ public final class FragmentDetailsBinding implements ViewBinding {
   public final TextView detailsDescription;
 
   @NonNull
+  public final FloatingActionButton detailsFabDownloadWp;
+
+  @NonNull
   public final FloatingActionButton detailsFabFavorites;
 
   @NonNull
@@ -43,19 +47,26 @@ public final class FragmentDetailsBinding implements ViewBinding {
   public final Toolbar detailsToolbar;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final CollapsingToolbarLayout toolbarLayout;
 
   private FragmentDetailsBinding(@NonNull CoordinatorLayout rootView, @NonNull AppBarLayout appBar,
-      @NonNull TextView detailsDescription, @NonNull FloatingActionButton detailsFabFavorites,
+      @NonNull TextView detailsDescription, @NonNull FloatingActionButton detailsFabDownloadWp,
+      @NonNull FloatingActionButton detailsFabFavorites,
       @NonNull FloatingActionButton detailsFabShare, @NonNull AppCompatImageView detailsPoster,
-      @NonNull Toolbar detailsToolbar, @NonNull CollapsingToolbarLayout toolbarLayout) {
+      @NonNull Toolbar detailsToolbar, @NonNull ProgressBar progressBar,
+      @NonNull CollapsingToolbarLayout toolbarLayout) {
     this.rootView = rootView;
     this.appBar = appBar;
     this.detailsDescription = detailsDescription;
+    this.detailsFabDownloadWp = detailsFabDownloadWp;
     this.detailsFabFavorites = detailsFabFavorites;
     this.detailsFabShare = detailsFabShare;
     this.detailsPoster = detailsPoster;
     this.detailsToolbar = detailsToolbar;
+    this.progressBar = progressBar;
     this.toolbarLayout = toolbarLayout;
   }
 
@@ -98,6 +109,12 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.details_fab_download_wp;
+      FloatingActionButton detailsFabDownloadWp = ViewBindings.findChildViewById(rootView, id);
+      if (detailsFabDownloadWp == null) {
+        break missingId;
+      }
+
       id = R.id.detailsFabFavorites;
       FloatingActionButton detailsFabFavorites = ViewBindings.findChildViewById(rootView, id);
       if (detailsFabFavorites == null) {
@@ -122,6 +139,12 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progress_bar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar_layout;
       CollapsingToolbarLayout toolbarLayout = ViewBindings.findChildViewById(rootView, id);
       if (toolbarLayout == null) {
@@ -129,7 +152,8 @@ public final class FragmentDetailsBinding implements ViewBinding {
       }
 
       return new FragmentDetailsBinding((CoordinatorLayout) rootView, appBar, detailsDescription,
-          detailsFabFavorites, detailsFabShare, detailsPoster, detailsToolbar, toolbarLayout);
+          detailsFabDownloadWp, detailsFabFavorites, detailsFabShare, detailsPoster, detailsToolbar,
+          progressBar, toolbarLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
