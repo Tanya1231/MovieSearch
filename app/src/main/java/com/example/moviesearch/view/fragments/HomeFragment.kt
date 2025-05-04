@@ -9,28 +9,27 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.room.InvalidationTracker
 import com.example.moviesearch.utils.AnimationHelper
 import com.example.moviesearch.view.rv_adapters.FilmListRecyclerAdapter
 import com.example.moviesearch.view.MainActivity
 import com.example.moviesearch.view.rv_adapters.TopSpacingItemDecoration
 import com.example.moviesearch.databinding.FragmentHomeBinding
 import com.example.moviesearch.data.entity.Film
+import com.example.moviesearch.utils.AutoDisposable
+import com.example.moviesearch.utils.addTo
 import com.example.moviesearch.viewmodel.HomeFragmentViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.cancel
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.schedulers.Schedulers
 import java.util.Locale
 
+@Suppress("DEPRECATION")
 class HomeFragment : Fragment() {
     private val viewModel by lazy {
         ViewModelProvider.NewInstanceFactory().create(HomeFragmentViewModel::class.java)
     }
     private lateinit var filmsAdapter: FilmListRecyclerAdapter
     private lateinit var binding: FragmentHomeBinding
-    private lateinit var scope: CoroutineScope
+    private val autoDisposable = AutoDisposable()
 
 
     private var filmsDataBase = listOf<Film>()
@@ -43,6 +42,12 @@ class HomeFragment : Fragment() {
             //Обновляем RV адаптер
             filmsAdapter.addItems(field)
         }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        autoDisposable.bindTo(lifecycle)
+        retainInstance = true
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -67,23 +72,21 @@ class HomeFragment : Fragment() {
 
         initPullToRefresh()
 
-        scope = CoroutineScope(Dispatchers.IO).also { scope ->
-            scope.launch {
-                viewModel.filmsListData.collect {
-                    withContext(Dispatchers.Main) {
-                        filmsAdapter.addItems(it)
-                        filmsDataBase = it
-                    }
-                }
+        viewModel.filmsListData
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe { list ->
+                filmsAdapter.addItems(list)
+                filmsDataBase = list
             }
-            scope.launch {
-                for (element in viewModel.showProgressBar) {
-                    launch(Dispatchers.Main) {
-                        binding.progressBar.isVisible = element
-                    }
-                }
+            .addTo(autoDisposable)
+        viewModel.showProgressBar
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe {
+                binding.progressBar.isVisible = it
             }
-        }
+            .addTo(autoDisposable)
 
 
         //Подключаем слушателя изменений введенного текста в поиска
@@ -127,10 +130,6 @@ class HomeFragment : Fragment() {
         filmsAdapter.addItems(filmsDataBase)
     }
 
-    override fun onStop() {
-        super.onStop()
-        scope.cancel()
-    }
 
     private fun initPullToRefresh() {
         //Вешаем слушатель, чтобы вызвался pull to refresh
