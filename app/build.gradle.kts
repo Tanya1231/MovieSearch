@@ -97,5 +97,7 @@ dependencies {
     kapt ("com.google.dagger:dagger-compiler:2.46")
     kapt ("com.google.dagger:dagger-android-processor:2.46")
     implementation("androidx.core:core-ktx:1.3.2")
+    implementation ("io.reactivex.rxjava3:rxkotlin:3.0.1")
+    implementation ("com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0")
 
 }
