@@ -1,21 +1,19 @@
-package com.example.moviesearch.di.modules
+package com.example.remote_module
 
-import com.example.moviesearch.data.ApiConstants
-import com.example.moviesearch.data.TmdbApi
-
+import com.example.remote_module.entity.ApiConstants
 import dagger.Module
 import dagger.Provides
 import hu.akarnokd.rxjava3.retrofit.RxJava3CallAdapterFactory
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
-import org.koin.androidx.scope.BuildConfig
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
 @Module
-class RemoteModule {
+object RemoteModule {
+
     @Provides
     @Singleton
     fun provideOkHttpClient(): OkHttpClient = OkHttpClient.Builder()
@@ -24,9 +22,7 @@ class RemoteModule {
         .readTimeout(30, TimeUnit.SECONDS)
         //Добавляем логгер
         .addInterceptor(HttpLoggingInterceptor().apply {
-            if (BuildConfig.DEBUG) {
-                level = HttpLoggingInterceptor.Level.BASIC
-            }
+            level = HttpLoggingInterceptor.Level.BASIC
         })
         .build()
 

@@ -36,6 +36,13 @@ android {
     }
 }
 
+// Добавьте настройки kapt
+kapt {
+    correctErrorTypes = true
+    useBuildCache = false
+    includeCompileClasspath = false
+}
+
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -44,9 +51,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    //Dagger
-    implementation("com.google.dagger:dagger:2.32")
-    kapt("com.google.dagger:dagger-compiler:2.32")
+    //Dagger - обновленная версия
+    implementation("com.google.dagger:dagger:2.48")
+    kapt("com.google.dagger:dagger-compiler:2.48")
 
     //Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
@@ -55,3 +62,4 @@ dependencies {
     implementation("com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0")
     implementation("io.reactivex.rxjava3:rxjava:3.0.10")
 }
+
