@@ -1,7 +1,7 @@
 package com.example.moviesearch.utils
 
-import com.example.moviesearch.data.entity.TmdbFilm
 import com.example.moviesearch.data.entity.Film
+import com.example.remote_module.entity.TmdbFilm
 
 object Converter {
     fun convertApiListToDtoList(list: List<TmdbFilm>?): List<Film> {

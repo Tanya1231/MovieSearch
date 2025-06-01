@@ -17,6 +17,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
@@ -49,14 +50,15 @@ android {
 }
 
 dependencies {
-
+    implementation ("com.google.dagger:dagger:2.48")
+    kapt ("com.google.dagger:dagger-compiler:2.48")
     implementation ("androidx.room:room-runtime:2.6.1")
     kapt ("androidx.room:room-compiler:2.6.1")
     implementation ("androidx.room:room-rxjava3:2.6.1")
 //RxJava
     implementation ("io.reactivex.rxjava3:rxandroid:3.0.0")
     implementation ("io.reactivex.rxjava3:rxjava:3.0.10")
-
+    implementation (project(":remote_module"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
