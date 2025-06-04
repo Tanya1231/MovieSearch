@@ -1,3 +1,0 @@
-com.example.moviesearch.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
