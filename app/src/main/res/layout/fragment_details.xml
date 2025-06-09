@@ -81,6 +81,19 @@
         app:srcCompat="@drawable/baseline_download_24"
         tools:ignore="ContentDescription" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/details_fab_watch_later"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/light_blue"
+        android:contentDescription="@string/watch_later"
+        android:translationX="144dp"
+        app:borderWidth="0dp"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="left|bottom"
+        app:srcCompat="@drawable/ic_outline_watch_later_24" />
+
     <ProgressBar
         android:id="@+id/progress_bar"
         android:layout_width="50dp"
