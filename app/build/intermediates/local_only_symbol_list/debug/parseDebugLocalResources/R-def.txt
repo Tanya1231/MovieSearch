@@ -34,6 +34,7 @@ drawable ic_baseline_home_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_movie
+drawable ic_outline_watch_later_24
 drawable later
 drawable like
 drawable menu
@@ -54,6 +55,7 @@ id detailsFabFavorites
 id detailsFabShare
 id details_description
 id details_fab_download_wp
+id details_fab_watch_later
 id details_poster
 id details_toolbar
 id disclaimer

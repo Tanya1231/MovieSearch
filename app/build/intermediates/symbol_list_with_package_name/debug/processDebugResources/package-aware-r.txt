@@ -3535,6 +3535,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_outline_watch_later_24
 drawable ic_search_black_24
 drawable indeterminate_static
 drawable later
@@ -3894,6 +3895,7 @@ id detailsFabFavorites
 id detailsFabShare
 id details_description
 id details_fab_download_wp
+id details_fab_watch_later
 id details_poster
 id details_toolbar
 id dialog_button

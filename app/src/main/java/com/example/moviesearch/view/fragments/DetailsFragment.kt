@@ -21,6 +21,7 @@ import com.bumptech.glide.Glide
 import com.example.moviesearch.R
 import com.example.moviesearch.databinding.FragmentDetailsBinding
 import com.example.moviesearch.data.entity.Film
+import com.example.moviesearch.view.notifications.NotificationHelper
 import com.example.moviesearch.viewmodel.DetailsFragmentViewModel
 import com.example.remote_module.entity.ApiConstants
 import com.google.android.material.snackbar.Snackbar
@@ -80,6 +81,9 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
 
         binding.detailsFabDownloadWp.setOnClickListener {
             performAsyncLoadOfPoster()
+        }
+        binding.detailsFabWatchLater.setOnClickListener {
+            NotificationHelper.createNotification(requireContext(), film)
         }
     }
 
@@ -141,6 +145,7 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
         )
         return result == PackageManager.PERMISSION_GRANTED
     }
+
     //Запрашиваем разрешение
     private fun requestPermission() {
         ActivityCompat.requestPermissions(

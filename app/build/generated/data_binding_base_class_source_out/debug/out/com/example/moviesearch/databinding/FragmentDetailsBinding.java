@@ -41,6 +41,9 @@ public final class FragmentDetailsBinding implements ViewBinding {
   public final FloatingActionButton detailsFabShare;
 
   @NonNull
+  public final FloatingActionButton detailsFabWatchLater;
+
+  @NonNull
   public final AppCompatImageView detailsPoster;
 
   @NonNull
@@ -55,7 +58,8 @@ public final class FragmentDetailsBinding implements ViewBinding {
   private FragmentDetailsBinding(@NonNull CoordinatorLayout rootView, @NonNull AppBarLayout appBar,
       @NonNull TextView detailsDescription, @NonNull FloatingActionButton detailsFabDownloadWp,
       @NonNull FloatingActionButton detailsFabFavorites,
-      @NonNull FloatingActionButton detailsFabShare, @NonNull AppCompatImageView detailsPoster,
+      @NonNull FloatingActionButton detailsFabShare,
+      @NonNull FloatingActionButton detailsFabWatchLater, @NonNull AppCompatImageView detailsPoster,
       @NonNull Toolbar detailsToolbar, @NonNull ProgressBar progressBar,
       @NonNull CollapsingToolbarLayout toolbarLayout) {
     this.rootView = rootView;
@@ -64,6 +68,7 @@ public final class FragmentDetailsBinding implements ViewBinding {
     this.detailsFabDownloadWp = detailsFabDownloadWp;
     this.detailsFabFavorites = detailsFabFavorites;
     this.detailsFabShare = detailsFabShare;
+    this.detailsFabWatchLater = detailsFabWatchLater;
     this.detailsPoster = detailsPoster;
     this.detailsToolbar = detailsToolbar;
     this.progressBar = progressBar;
@@ -127,6 +132,12 @@ public final class FragmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.details_fab_watch_later;
+      FloatingActionButton detailsFabWatchLater = ViewBindings.findChildViewById(rootView, id);
+      if (detailsFabWatchLater == null) {
+        break missingId;
+      }
+
       id = R.id.details_poster;
       AppCompatImageView detailsPoster = ViewBindings.findChildViewById(rootView, id);
       if (detailsPoster == null) {
@@ -152,8 +163,8 @@ public final class FragmentDetailsBinding implements ViewBinding {
       }
 
       return new FragmentDetailsBinding((CoordinatorLayout) rootView, appBar, detailsDescription,
-          detailsFabDownloadWp, detailsFabFavorites, detailsFabShare, detailsPoster, detailsToolbar,
-          progressBar, toolbarLayout);
+          detailsFabDownloadWp, detailsFabFavorites, detailsFabShare, detailsFabWatchLater,
+          detailsPoster, detailsToolbar, progressBar, toolbarLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
