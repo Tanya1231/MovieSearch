@@ -83,7 +83,7 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
             performAsyncLoadOfPoster()
         }
         binding.detailsFabWatchLater.setOnClickListener {
-            NotificationHelper.createNotification(requireContext(), film)
+            NotificationHelper.notificationSet(requireContext(), film)
         }
     }
 
