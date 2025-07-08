@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.moviesearch.utils.AnimationHelper
 import com.example.moviesearch.view.rv_adapters.FilmListRecyclerAdapter
-import com.example.moviesearch.view.MainActivity
 import com.example.moviesearch.view.rv_adapters.TopSpacingItemDecoration
 import com.example.moviesearch.databinding.FragmentFavoritesBinding
 import com.example.moviesearch.data.entity.Film
+import com.example.moviesearch.view.MainActivity
 
 class FavoritesFragment : Fragment() {
     private lateinit var filmsAdapter: FilmListRecyclerAdapter
