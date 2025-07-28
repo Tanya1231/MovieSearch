@@ -80,6 +80,8 @@ android {
 
 dependencies {
     implementation("com.google.dagger:dagger:2.48")
+    implementation(libs.firebase.config)
+    implementation(libs.common)
     kapt("com.google.dagger:dagger-compiler:2.48")
 
     implementation("androidx.room:room-runtime:2.6.1")
